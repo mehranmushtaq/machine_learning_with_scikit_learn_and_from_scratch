@@ -129,6 +129,12 @@ d(x, y) = √ Σ (xᵢ - yᵢ)²
 	•	Local averaging behavior
 	•	Model complexity control via K
 
+## Key Concepts Learned
+	•	Distance metrics
+	•	Bias-variance tradeoff (effect of K)
+	•	Instance-based learning
+	•	Local averaging behavior
+	•	Model complexity control via K
 
 
 ## ⚠️ Important Insight
@@ -137,3 +143,43 @@ d(x, y) = √ Σ (xᵢ - yᵢ)²
 	•	Large K → High bias, Low variance
 
 Choosing K properly is crucial.
+
+
+## What I Learned
+
+Through implementing these algorithms from scratch, I learned:
+
+## Linear Regression
+	•	How Gradient Descent updates parameters
+	•	How learning rate affects convergence
+	•	The role of bias and weights
+	•	Difference between iterative solution and closed-form (OLS)
+	•	Matrix multiplication in ML
+
+## Logistic Regression
+	•	How sigmoid transforms linear output into probability
+	•	How classification differs from regression
+	•	Decision boundary concept
+	•	Binary cross-entropy intuition
+	•	Why gradient descent is required for classification
+
+## KNN (Regressor)
+	•	Distance-based learning
+	•	Instance-based (lazy) learning
+	•	Bias–variance tradeoff via K
+	•	Why KNN has no training phase
+	•	How local averaging works
+
+## Mathematical Foundations Strengthened
+	•	Vectorization with NumPy
+	•	Dot products & matrix algebra
+	•	Optimization intuition
+	•	How loss functions drive learning
+	•	Why scaling matters
+	
+## Engineering Skills
+	•	Writing ML models as classes
+	•	Clean separation of fit() and predict()
+	•	Reusable code structure
+	•	Avoiding library shortcuts
+
