@@ -4,7 +4,7 @@ This repository contains implementations of fundamental **machine learning algor
 
 The goal of this repository is to build a strong practical foundation in machine learning by working with **real datasets and complete ML workflows.**
 
-## ## Repository Structure
+## Repository Structure
 ```
 ├── Datasets/
 │   ├── Emotion_classify_Data.csv
