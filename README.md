@@ -2,9 +2,9 @@
 
 This repository contains implementations of fundamental **machine learning algorithms using Python and Scikit-Learn, along with data preprocessing, feature engineering, visualization, pipelines, cross-validation, regularization, and model evaluation.**
 
-The goal of this repository is to build a strong practical foundation in machine learning by working with real datasets and complete ML workflows.
+The goal of this repository is to build a strong practical foundation in machine learning by working with **real datasets and complete ML workflows.**
 
-## Repository Structure
+## ## Repository Structure
 ```
 ├── Datasets/
 │   ├── Emotion_classify_Data.csv
