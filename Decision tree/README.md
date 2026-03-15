@@ -9,14 +9,14 @@ This project predicts whether a passenger survived the Titanic disaster using a 
 Dataset used: Seaborn Titanic dataset
 
 ## Target variable:
+
 	•	survived (0 = No, 1 = Yes)
 
 ## Features used:
+
 	•	pclass
 	•	sex
 	•	age
-	•	sibsp
-	•	parch
 	•	fare
 	•	embarked
 
