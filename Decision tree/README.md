@@ -1,29 +1,36 @@
-Titanic Survival Prediction: Decision Tree Analysis
-This project demonstrates the end-to-end process of building, visualizing, and optimizing a Decision Tree Classifier to predict passenger survival on the Titanic.
-## Key Features
-```
-• Data Preprocessing: Handling missing values for age and embarked using median and most-frequent imputation.
-• Feature Engineering: Categorical encoding of sex and embarked features.
-• Hyperparameter Tuning: Systematic iteration through max_depth and min_samples_split to find the optimal balance between bias and variance.
-• Cost Complexity Pruning (CCP): Implementation of post-pruning to prevent overfitting by finding the best effective alpha.
-• Visualization: High-resolution tree diagrams using matplotlib to interpret model decision logic.
-```
-## Performance Summary
+## Titanic Survival Prediction using Decision Tree
 
-• Baseline Accuracy: ~76.8% (default parameters).
-• Optimized Accuracy: ~82.4% achieved through depth control and pruning.
+## Overview
 
-##  Technologies Used
-• Python 3.x
-• Scikit-Learn: Model building, preprocessing, and pruning.
-• Pandas/NumPy: Data manipulation.
-• Matplotlib/Seaborn: Tree visualization and EDA.
+This project predicts whether a passenger survived the Titanic disaster using a Decision Tree Classifier implemented with Scikit-learn. It also demonstrates pre-pruning and post-pruning techniques to reduce overfitting.
 
 ## Dataset
 
-The model uses the Seaborn titanic dataset.
-• Features: pclass, sex, fare, embarked, age.
-• Target: survived.
+Dataset used: Seaborn Titanic dataset
 
-## Decision Logic
-The model identifies Sex as the primary root splitter, followed by Class (pclass) and Age, mirroring historical survival trends where women and children in higher classes had higher priority.
+## Target variable:
+	•	survived (0 = No, 1 = Yes)
+
+## Features used:
+	•	pclass
+	•	sex
+	•	age
+	•	sibsp
+	•	parch
+	•	fare
+	•	embarked
+
+## Data Preprocessing
+	•	Missing values handled using SimpleImputer
+	•	Categorical variables encoded using LabelEncoder
+	•	Dataset split using train_test_split
+
+## Model
+
+## Algorithm used:
+	•	DecisionTreeClassifier
+
+## Experiments
+	1.	Baseline Decision Tree
+	2.	Pre-Pruning (max_depth, min_samples_split)
+	3.	Post-Pruning using Cost Complexity Pruning (ccp_alpha
