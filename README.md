@@ -12,6 +12,9 @@ The goal of this repository is to build a strong practical foundation in machine
 │   ├── Social_Network_Ads.csv
 │   ├── house_prices_practice.csv
 │   └── insurance.csv
+├── Decision tree/
+│   ├── decision_tree_classifier.ipynb
+│   └── README.md
 ├── KNN/
 │   ├── Knn.ipynb
 │   └── README.md
@@ -31,7 +34,7 @@ The goal of this repository is to build a strong practical foundation in machine
 │   ├── README.md
 │   ├── linear_reg.ipynb
 │   ├── logistic_reg.ipynb
-│   └── knn_regressor.ipynb  
+│   └── knn_regressor.ipynb
 ├── README.md
 └── requirements.txt
 ```
