@@ -32,7 +32,8 @@ Used `GridSearchCV` to optimize the following parameters:
 | Model | Accuracy (%) |
 | :--- | :--- |
 | Single Decision Tree | ~82.4% |
-| Random Forest (Tuned) | ~81.8% (OOB Score) |
+| Random Forest (Tuned) | ~82.0% (OOB Score) |
+
 
 
 
