@@ -33,7 +33,7 @@ Used `GridSearchCV` to optimize the following parameters:
 | :--- | :--- |
 | Single Decision Tree | ~82.4% |
 | Random Forest (Tuned) | ~81.8% (OOB Score) |
-| Bagging (Logistic Reg) | ~79.5% |
+
 
 
 ##  How to use
