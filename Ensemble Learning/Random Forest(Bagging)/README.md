@@ -26,11 +26,15 @@ Used `GridSearchCV` to optimize the following parameters:
 * `max_depth`: Maximum depth of the trees to prevent overfitting.
 * `criterion`: The function to measure the quality of a split (Gini vs. Entropy).
 
-##  Results Summary
+
+## Results Summary
+
 | Model | Accuracy (%) |
+| :--- | :--- |
 | Single Decision Tree | ~82.4% |
 | Random Forest (Tuned) | ~81.8% (OOB Score) |
 | Bagging (Logistic Reg) | ~79.5% |
+
 
 ##  How to use
 1. Ensure the `Datasets/` folder contains the Titanic data or use the Seaborn built-in loader.
