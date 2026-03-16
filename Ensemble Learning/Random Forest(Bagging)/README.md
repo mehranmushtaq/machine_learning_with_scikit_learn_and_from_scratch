@@ -3,6 +3,7 @@
 This directory explores **Ensemble Learning** techniques, focusing on how combining multiple "weak" learners (like Decision Trees) can create a "strong" learner with higher accuracy and better generalization.
 
 ##  Contents
+
 * `Random_forest.ipynb`: Implementation of Random Forest and Bagging Classifiers using the Titanic dataset.
 * `README.md`: Overview of ensemble concepts and results.
 
@@ -10,7 +11,8 @@ This directory explores **Ensemble Learning** techniques, focusing on how combin
 
 ### 1. Bagging (Bootstrap Aggregating)
 Bagging reduces the variance of an estimate by taking many samples from the training set, building a predictor for each sample, and averaging the predictions. 
-* **Base Models used:** Decision Trees and Logistic Regression.
+
+* **Base Models used:** Decision Trees.
 
 ### 2. Random Forest
 An extension of Bagging that provides even more diversity. In addition to drawing random samples of data, it also selects a **random subset of features** at each split in the tree. This decorrelates the trees, making the model more robust than a single Decision Tree.
@@ -18,6 +20,7 @@ An extension of Bagging that provides even more diversity. In addition to drawin
 
 
 ### 3. Hyperparameter Tuning
+
 Used `GridSearchCV` to optimize the following parameters:
 * `n_estimators`: Number of trees in the forest.
 * `max_depth`: Maximum depth of the trees to prevent overfitting.
