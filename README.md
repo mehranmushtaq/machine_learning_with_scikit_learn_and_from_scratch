@@ -15,7 +15,7 @@ The goal of this repository is to build a strong practical foundation in machine
 ├── Decision tree/
 │   ├── decision_tree_classifier.ipynb
 │   └── README.md
-├──|---Ensemble Learning/
+├── Ensemble Learning/
 │   └── Random Forest(Bagging)/
 │       ├── Random_forest.ipynb
 │       └── README.md
