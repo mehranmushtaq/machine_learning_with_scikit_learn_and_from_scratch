@@ -15,6 +15,10 @@ The goal of this repository is to build a strong practical foundation in machine
 ├── Decision tree/
 │   ├── decision_tree_classifier.ipynb
 │   └── README.md
+├──|---Ensemble Learning/
+│   └── Random Forest(Bagging)/
+│       ├── Random_forest.ipynb
+│       └── README.md
 ├── KNN/
 │   ├── Knn.ipynb
 │   └── README.md
@@ -25,18 +29,19 @@ The goal of this repository is to build a strong practical foundation in machine
 │   ├── Logistic_Regressor.ipynb
 │   └── README.md
 ├── Naive bayes/
-│   ├── README.md
-│   └── naive_bayes.ipynb
+│   ├── naive_bayes.ipynb
+│   └── README.md
 ├── Regularizaton(Lasso:Ridge)/
-│   ├── README.md
-│   └── lasso_ridge.ipynb
+│   ├── lasso_ridge.ipynb
+│   └── README.md
 ├── ml-from-scratch/
-│   ├── README.md
 │   ├── linear_reg.ipynb
 │   ├── logistic_reg.ipynb
-│   └── knn_regressor.ipynb
+│   ├── knn_regressor.ipynb
+│   └── README.md
 ├── README.md
 └── requirements.txt
+
 ```
 ## Machine Learning Workflow Implemented
 
