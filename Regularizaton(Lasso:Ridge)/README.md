@@ -1,14 +1,14 @@
-## 🏥 Medical Insurance Cost Prediction
+## Medical Insurance Cost Prediction
 
 Regularized Regression Analysis using Lasso & Ridge Models
 
 This project demonstrates an end-to-end Machine Learning workflow to predict medical insurance charges. It explores the power of L1 (Lasso) and L2 (Ridge) regularization, utilizing Scikit-learn pipelines and automated hyperparameter tuning to find the most accurate prediction model.
 
-## 🎯 Project Objective
+##  Project Objective
 
 The goal is to predict insurance charges based on demographic and health-related features while comparing the performance of regularized regression models to determine which handles the data's complexity more effectively.
 
-## 📊 Dataset Overview
+## Dataset Overview
 
 The model is trained on beneficiary data including:
 
@@ -18,7 +18,7 @@ The model is trained on beneficiary data including:
 
 • Target Variable: charges (The total medical cost billed by health insurance)
 
-## 🛠️ Machine Learning Workflow
+##  Machine Learning Workflow
 
 The project implements a structured, production-ready pipeline:
 
@@ -36,7 +36,7 @@ The project implements a structured, production-ready pipeline:
  
 7. Evaluation: Comparing models using {R^2}, MSE, and RMSE.
  
-## 🏆 Model Results
+##  Model Results
 
 ## Lasso Regression (L1)
 
@@ -56,19 +56,19 @@ The project implements a structured, production-ready pipeline:
 
 Note: Ridge Regression performed slightly better, suggesting that shrinking coefficients (L2) was more effective than the feature elimination (L1) approach for this specific dataset.
 
-## 🖼️ Visualizations
+##  Visualizations
 
-## 1️⃣ Feature Correlation Heatmap
+##  Feature Correlation Heatmap
 
 ![Correlation Heatmap](image1.png)
 Identifies the strongest drivers of insurance costs, highlighting the massive impact of smoking status and age.
 
-## 2️⃣ Actual vs. Predicted Charges (Ridge)
+##  Actual vs. Predicted Charges (Ridge)
 
 ![Actual vs Predicted](image2.png)
 Visualizes how well the model's predictions align with reality.
 
-## 🧰 Tech Stack & Skills
+## Tech Stack & Skills
 
 • Languages: Python
 
@@ -78,7 +78,7 @@ Visualizes how well the model's predictions align with reality.
 
 • Machine Learning: Scikit-learn (Pipelines, GridSearchCV, Regularization)
 
-## 💡 Skills Demonstrated
+##  Skills Demonstrated
 
 • ✅ Regularized Regression (L1 & L2)
 
