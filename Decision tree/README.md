@@ -3,8 +3,8 @@
 This directory contains the implementation of a **Decision Tree Classifier** to predict passenger survival on the Titanic. The focus here is on understanding how a single tree splits data and how to prevent **overfitting** through various pruning techniques.
 
 ##  Contents
-* `decision_tree_classifier.ipynb`: Step-by-step implementation, visualization, and pruning.
-* `README.md`: Explanation of Decision Tree concepts and results.
+* **`decision_tree_classifier.ipynb`**: Step-by-step implementation, visualization, and pruning.
+* **`README.md`**: Explanation of Decision Tree concepts and results.
 
 ## Concepts Implemented
 
