@@ -33,6 +33,6 @@ Using `plot_tree`, we visualize the decision-making process.
 | Default (Unpruned) | N/A | ~76.86% |
 
 ##  How to use
-1. Run `decision_tree_classifier.ipynb` to view the impact of different pruning methods.
+1. Run **`decision_tree_classifier.ipynb`** to view the impact of different pruning methods.
 2. Observe the accuracy improvements as we move from a default tree to a pruned one.
 
