@@ -1,4 +1,4 @@
-## Emotion Classification using Naive Bayes (with Pipeline & GridSearchCV)
+## Emotion Classification using Naive Bayes **(with Pipeline & GridSearchCV)**
 
 ## Project Overview
 
