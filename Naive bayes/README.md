@@ -39,7 +39,7 @@ The model classifies text comments into different emotional categories.
 4️⃣ Model Building
 
 Used:
-	•	Multinomial Naive Bayes
+	 **Multinomial Naive Bayes**
 
 Implemented using:
 
