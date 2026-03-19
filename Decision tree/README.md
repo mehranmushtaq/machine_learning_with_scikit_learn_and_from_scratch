@@ -19,7 +19,7 @@ To prevent the tree from growing too deep and memorizing noise in the data, we e
 * **Min Samples Split**: The minimum number of samples required to split an internal node.
 * **Observation**: As seen in the code, increasing depth initially improves accuracy but eventually leads to overfitting on the training set.
 * **Min Samples Leaf**: The minimum number of samples required to be at a leaf node.
-* **Observation**: Unlike classification where we measure accuracy, in regression, these constraints directly impact the Mean Squared Error (MSE) and R² score.
+* **Observation**: Unlike classification where we measure accuracy, in regression, these constraints directly impact the Mean Squared Error (MSE) and R2 score.
 
 ### 2. Post-Pruning (Cost Complexity Pruning)
 We use **Minimal Cost Complexity Pruning** to find the optimal tree size.
@@ -29,7 +29,7 @@ We use **Minimal Cost Complexity Pruning** to find the optimal tree size.
 ### 3. Evaluation Metrics for Regression
 Since we are predicting a continuous value rather than a category, we evaluate the model using:
 * **Mean Squared Error (MSE)**: Measures the average squared difference between the estimated values and the actual value.
-* **R² Score (Coefficient of Determination):** Represents the proportion of variance for the target variable... Our test $R^2$ achieved approximately 0.41.
+* **R2 Score (Coefficient of Determination):** Represents the proportion of variance for the target variable... Our test $R^2$ achieved approximately 0.41.
 
 
 ### 3. Visualization
