@@ -29,7 +29,7 @@ We use **Minimal Cost Complexity Pruning** to find the optimal tree size.
 ### 3. Evaluation Metrics for Regression
 Since we are predicting a continuous value rather than a category, we evaluate the model using:
 * **Mean Squared Error (MSE)**: Measures the average squared difference between the estimated values and the actual value.
-* **R2 Score (Coefficient of Determination):** Represents the proportion of variance for the target variable... Our test $R^2$ achieved approximately 0.41.
+* **R2 Score (Coefficient of Determination):** Represents the proportion of variance for the target variable... Our test $R2$ achieved approximately 0.41.
 
 
 ### 3. Visualization
