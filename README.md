@@ -126,7 +126,8 @@ The focus is on:
 	•	Practicing with real datasets
 	•	Applying feature engineering techniques
 	•	Using pipelines and GridSearchCV
-**• Building portfolio-ready ML projects**
+
+**Building portfolio-ready ML projects**
 
 ## Future Additions
 
