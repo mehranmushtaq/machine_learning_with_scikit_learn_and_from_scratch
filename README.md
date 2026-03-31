@@ -31,17 +31,20 @@ The goal of this repository is to build a strong practical foundation in machine
 ├── Naive bayes/
 │   ├── naive_bayes.ipynb
 │   └── README.md
-├── Regularizaton(Lasso:Ridge)/
+├── Projects/
+│   └── CreditWise Loan System/
+│       ├── Loan_Approval.ipynb
+│       ├── loan_approval_data.csv
+│       └── README.md
+├── Regularization(Lasso/Ridge)/
 │   ├── lasso_ridge.ipynb
 │   └── README.md
 ├── ml-from-scratch/
 │   ├── linear_reg.ipynb
 │   ├── logistic_reg.ipynb
-│   ├── knn_regressor.ipynb
-│   └── README.md
+│   └── knn_regressor.ipynb
 ├── README.md
 └── requirements.txt
-
 ```
 ## Machine Learning Workflow Implemented
 
