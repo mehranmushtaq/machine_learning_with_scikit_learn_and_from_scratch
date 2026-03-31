@@ -45,4 +45,16 @@ The system is architected for easy integration into banking web portals using St
 ``
 pip install pandas numpy scikit-learn matplotlib seaborn joblib
 ``
+## Running the Analysis
 
+1. Clone the repository.
+  
+2. Ensure loan_approval_data.csv is in the root directory.
+
+3. Execute the Loan_Approval.ipynb notebook or run the exported .py script.
+
+## Key Takeaways
+
+• Risk Mitigation: The model prioritizes precision to guard the lender’s capital.
+• Scalability: The use of Scikit-Learn Pipelines allows for seamless transition from training to a live production API.
+• Interpretability: By analyzing coefficients and feature importance, the system provides transparent reasoning for approval/rejection
