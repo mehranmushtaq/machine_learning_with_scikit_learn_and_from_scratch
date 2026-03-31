@@ -56,5 +56,7 @@ pip install pandas numpy scikit-learn matplotlib seaborn joblib
 ## Key Takeaways
 
 • Risk Mitigation: The model prioritizes precision to guard the lender’s capital.
+
 • Scalability: The use of Scikit-Learn Pipelines allows for seamless transition from training to a live production API.
+
 • Interpretability: By analyzing coefficients and feature importance, the system provides transparent reasoning for approval/rejection
