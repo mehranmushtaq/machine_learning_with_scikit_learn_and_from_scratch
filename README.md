@@ -131,6 +131,4 @@ The focus is on:
 
 ## Future Additions
 
-	•	Decision Trees
-	•	Ensemble methods
 	•	Model deployment
