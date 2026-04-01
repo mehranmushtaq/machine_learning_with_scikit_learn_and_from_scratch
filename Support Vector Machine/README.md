@@ -3,6 +3,7 @@
 This repository contains practical implementations of Support Vector Machines using scikit-learn. It covers data preprocessing, model training with various kernels, and hyperparameter tuning for both classification and regression tasks.
 
 ## Project Overview
+
 Support Vector Machine is a powerful supervised learning algorithm used for both classification and regression. This project demonstrates how to:
 
 • Preprocess data using StandardScaler.
@@ -55,4 +56,4 @@ The notebook compares the performance of different SVM kernels:
 
 ## Hyperparameter Tuning
 
-A loop was implemented to test different values for the regularization parameter \bm{C}. Higher values of **C** aim for a smaller-margin hyperplane if that hyperplane does a better job of getting all the training points classified correctly
+A loop was implemented to test different values for the regularization parameter **C**. Higher values of **C** aim for a smaller-margin hyperplane if that hyperplane does a better job of getting all the training points classified correctly
