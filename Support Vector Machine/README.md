@@ -1,6 +1,6 @@
 ## Support Vector Machine (SVM) Implementation
 
-This repository contains practical implementations of Support Vector Machines using scikit-learn. It covers data preprocessing, model training with various kernels, and hyperparameter tuning for both classification and regression tasks.
+This repository contains practical implementations of **Support Vector Machines using scikit-learn**. It covers data preprocessing, model training with various kernels, and hyperparameter tuning for both classification and regression tasks.
 
 ## Project Overview
 
