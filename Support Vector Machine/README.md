@@ -31,7 +31,7 @@ The classification examples currently use the Iris Dataset, a classic multi-clas
 
 ## Implementation Details
 
-1. Kernels Explored
+## Kernels Explored
    
 The notebook compares the performance of different SVM kernels:
 
@@ -44,6 +44,14 @@ The notebook compares the performance of different SVM kernels:
 • Sigmoid: Often used in neural network contexts.
 
 ## Performance Comparison
+
+| Kernel | Accuracy | Complexity |
+| :--- | :--- | :--- |
+| **RBF** | 0.933 | High |
+| **Linear** | 0.911 | Low |
+| **Sigmoid** | 0.911 | Medium |
+| **Polynomial** | 0.866 | Very High |
+
 
 ## Hyperparameter Tuning
 
