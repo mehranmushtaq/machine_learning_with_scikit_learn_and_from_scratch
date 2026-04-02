@@ -2,7 +2,7 @@
 
 ## 📌 Project Overview
 
-This project demonstrates the implementation of the K-Nearest Neighbors (KNN) classification algorithm using Scikit-learn.
+This project demonstrates the implementation of the **K-Nearest Neighbors (KNN)** classification algorithm using Scikit-learn.
 
 The model is trained on the Iris dataset to classify flower species based on sepal and petal measurements.
 
