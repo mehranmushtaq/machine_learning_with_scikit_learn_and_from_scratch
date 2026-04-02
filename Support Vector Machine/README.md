@@ -8,7 +8,7 @@ Support Vector Machine is a powerful supervised learning algorithm used for both
 
 • Preprocess data using StandardScaler.
 
-• Implement SVC (Support Vector Classification) using different kernels.
+• Implement SVC **(Support Vector Classification)** using different kernels.
 
 • Optimize models by tuning the regularization parameter **C**.
 
