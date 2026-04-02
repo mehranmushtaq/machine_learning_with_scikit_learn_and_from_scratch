@@ -12,8 +12,6 @@ Support Vector Machine is a powerful supervised learning algorithm used for both
 
 • Optimize models by tuning the regularization parameter **C**.
 
-• (Planned) Implement SVR (Support Vector Regression).
-
 ## Tech Stack
 
 • Language: Python
