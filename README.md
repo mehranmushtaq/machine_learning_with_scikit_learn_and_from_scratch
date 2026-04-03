@@ -32,10 +32,13 @@ The goal of this repository is to build a strong practical foundation in machine
 │   ├── naive_bayes.ipynb
 │   └── README.md
 ├── Projects/
-│   └── CreditWise Loan System/
-│       ├── Loan_Approval.ipynb
-│       ├── loan_approval_data.csv
-│       └── README.md
+│   ├── CreditWise Loan System/
+│   │   ├── Loan_Approval.ipynb
+│   │   ├── loan_approval_data.csv
+│   │   └── README.md
+│   └── ecommerce-purchase-prediction/
+│       ├── predicting_ecommerce.ipynb
+│       └── shop_smart_ecommerce.csv
 ├── Regularization(Lasso/Ridge)/
 │   ├── lasso_ridge.ipynb
 │   └── README.md
@@ -48,7 +51,6 @@ The goal of this repository is to build a strong practical foundation in machine
 │   └── knn_regressor.ipynb
 ├── README.md
 └── requirements.txt
-
 ```
 ## Machine Learning Workflow Implemented
 
