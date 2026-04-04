@@ -35,7 +35,7 @@ After rigorous cross-validation and testing (33% holdout), the models achieved t
 | Naive Bayes         | 0.885     | 0.878     | 0.793    | 0.719  |
 | Logistic Regression | 0.855     | 0.884     | 0.813    | 0.775  |
 
-Naive Bayes was selected as the champion model for this deployment due to its superior Precision (0.885). In a lending context, high precision is critical as it minimizes "False Positives"—approving a loan for a high-risk candidate who is likely to default.
+**Naive Bayes** was selected as the champion model for this deployment due to its superior Precision (0.885). In a lending context, **high precision is critical as it minimizes "False Positives"—approving** a loan for a high-risk candidate who is likely to default.
 
 ## Deployment & Usage
 
