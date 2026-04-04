@@ -11,7 +11,7 @@ The project implements a robust data preprocessing pipeline to ensure production
 
 • Target Imbalance: Analyzed class distribution (approx. 70/30 split) to ensure model robustness.
 
-• Feature Correlation: Identifed high-impact variables such as Credit_Score (0.45 correlation) and DTI_Ratio (-0.44 correlation).
+• Feature Correlation: Identifed high-impact variables such as **Credit_Score (0.45 correlation) and DTI_Ratio (-0.44 correlation).**
 
 • Visual Insights: Utilized segmented boxplots and distribution histograms to identify non-linear relationships in financial metrics.
 
