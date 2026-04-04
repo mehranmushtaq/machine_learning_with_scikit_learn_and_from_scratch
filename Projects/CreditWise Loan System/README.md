@@ -21,7 +21,7 @@ To optimize the performance of the Gaussian Naive Bayes and Logistic Regression 
 
 • Logarithmic Scaling: Applied to Applicant_Income to normalize skewed distributions.
 
-• Polynomial Features: Created squared terms for Credit_Score and DTI_Ratio to capture non-linear decision boundaries.
+• Polynomial Features: Created squared terms for **Credit_Score and DTI_Ratio to capture non-linear decision boundaries.**
 
 • Standardization: Implemented StandardScaler to ensure feature parity for gradient-based solvers.
 
