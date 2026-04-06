@@ -1,9 +1,10 @@
 # 🚀 Machine Learning Portfolio – Spagly
 
 Welcome to my Machine Learning repository!  
-I am a 1st-year B.Tech CSE student passionate about building real-world ML solutions and continuously improving my skills in data science and AI.
 
+I am a **1st-year B.Tech CSE** student passionate about building real-world ML solutions and continuously improving my skills in data science and AI.
 ---
+
 ## Repository Structure
 ```
 ├── Datasets/
@@ -69,10 +70,9 @@ This repository demonstrates a complete end-to-end Machine Learning workflow, in
 - 🔍 Hyperparameter Tuning (GridSearchCV)  
 - 🔁 Cross Validation  
 - 📏 Model Evaluation  
-
 ---
 
-## 🧠 Algorithms Implemented
+##  Algorithms Implemented
 
 ### 🔹 Supervised Learning
 - Linear Regression  
@@ -108,9 +108,9 @@ This repository demonstrates a complete end-to-end Machine Learning workflow, in
 
 ---
 
-## 🛠️ Tech Stack
+##  Tech Stack
 
-- Python 🐍  
+- Python 🐍 
 - NumPy & Pandas  
 - Matplotlib & Seaborn  
 - Scikit-learn  
@@ -118,7 +118,7 @@ This repository demonstrates a complete end-to-end Machine Learning workflow, in
 
 ---
 
-## 📊 Key Highlights
+##  Key Highlights
 
 - ✔️ Implemented ML models from scratch  
 - ✔️ Used pipelines for clean workflows  
@@ -127,7 +127,7 @@ This repository demonstrates a complete end-to-end Machine Learning workflow, in
 
 ---
 
-## 🚀 Future Improvements
+##  Future Improvements
 
 -  Deploy ML models using Streamlit  
 -  Work on real-world datasets  
@@ -136,7 +136,7 @@ This repository demonstrates a complete end-to-end Machine Learning workflow, in
 
 ---
 
-## 📈 Goals
+##  Goals
 
 I aim to:
 - Become a skilled ML Engineer  
