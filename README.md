@@ -1,4 +1,4 @@
-# 🚀 Machine Learning Portfolio 
+## Machine Learning Portfolio 
 
 Welcome to my **Machine Learning repository!** 
 
