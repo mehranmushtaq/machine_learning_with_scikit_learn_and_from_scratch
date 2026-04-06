@@ -14,6 +14,7 @@ The goal of this repository is to build a strong practical foundation in **machi
 │   └── insurance.csv
 ├── Decision tree/
 │   ├── decision_tree_classifier.ipynb
+|   ├── decision_tree_regressor.ipynb
 │   └── README.md
 ├── KNN/
 │   ├── Knn.ipynb
