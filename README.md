@@ -60,7 +60,7 @@ I am a **1st-year B.Tech CSE** student passionate about building real-world ML s
 ├── README.md
 └── requirements.txt
 ```
-## 📌 What This Repository Covers
+## What This Repository Covers
 
 This repository demonstrates a complete end-to-end Machine Learning workflow, including:
 
