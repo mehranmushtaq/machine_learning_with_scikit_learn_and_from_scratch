@@ -1,9 +1,9 @@
-## Machine Learning
+# 🚀 Machine Learning Portfolio – Spagly
 
-This repository contains implementations of fundamental **machine learning algorithms using Python and Scikit-Learn, along with data preprocessing, feature engineering, visualization, pipelines, cross-validation, regularization, and model evaluation.**
+Welcome to my Machine Learning repository!  
+I am a 1st-year B.Tech CSE student passionate about building real-world ML solutions and continuously improving my skills in data science and AI.
 
-The goal of this repository is to build a strong practical foundation in **machine learning by working with real datasets and complete ML workflows.**
-
+---
 ## Repository Structure
 ```
 ├── Datasets/
@@ -58,92 +58,89 @@ The goal of this repository is to build a strong practical foundation in **machi
 ├── README.md
 └── requirements.txt
 ```
-## Machine Learning Workflow Implemented
+## 📌 What This Repository Covers
 
-This repository demonstrates a complete end-to-end ML pipeline:
+This repository demonstrates a complete end-to-end Machine Learning workflow, including:
 
-	•	Data preprocessing
-	•	Feature engineering
-	•	Data visualization
-	•	Pipeline creation
-	•	Model training
-	•	GridSearchCV
-	•	Regularization (L1 / L2)
-	•	Cross-validation
-	•	Model evaluation
+- 📊 Data Preprocessing  
+- 🧠 Feature Engineering  
+- 📈 Data Visualization  
+- ⚙️ Pipeline Creation  
+- 🔍 Hyperparameter Tuning (GridSearchCV)  
+- 🔁 Cross Validation  
+- 📏 Model Evaluation  
 
-## Data Preprocessing
+---
 
-	•	Handling missing values
-	•	Encoding categorical variables
-	•	Feature scaling
-	•	Train-test split
+## 🧠 Algorithms Implemented
 
-## Feature Engineering
+### 🔹 Supervised Learning
+- Linear Regression  
+- Logistic Regression  
+- K-Nearest Neighbors (KNN)  
+- Naive Bayes  
+- Decision Trees  
+- Support Vector Machines (SVM)
 
-Feature engineering techniques used in this repository include:
+### 🔹 Regularization
+- Lasso Regression  
+- Ridge Regression  
 
-	•	One-hot encoding
-	•	Creating interaction terms for combined feature effects
-	•	Feature selection
-	•	Removing irrelevant features
+### 🔹 Ensemble Learning
+- Bagging (Random Forest)  
+- Boosting (Gradient Boosting)
 
-These steps help improve model performance and interpretability.
+---
 
-## Data Visualization
+## 📂 Projects
 
-Visualization is performed before and after model training to better understand the dataset and model performance.
+### 💳 CreditWise – Loan Approval Prediction
+- Built a classification model to predict loan approval status  
+- Applied preprocessing, feature scaling, and model tuning  
+- Evaluated using accuracy and confusion matrix  
 
-Libraries used:
+---
 
-	•	Matplotlib
-	•	Seaborn
+### 🛒 E-commerce Purchase Prediction
+- Predicts whether a user will make a purchase  
+- Used classification algorithms with performance comparison  
+- Focused on feature importance and model optimization  
 
-## Visualizations include:
+---
 
-	•	Correlation heatmaps
-	•	Distribution plots
-	•	Scatter plots
-	•	Feature relationship plots
-	•	Actual vs Predicted plots
-	•	Residual analysis
-	•	Model prediction visualization
+## 🛠️ Tech Stack
 
-Scatter plots and other charts are used to understand relationships between variables and to evaluate prediction performance. 
+- Python 🐍  
+- NumPy & Pandas  
+- Matplotlib & Seaborn  
+- Scikit-learn  
+- Jupyter Notebook  
 
-## Cross Validation and Pipelines
+---
 
-This repository uses:
+## 📊 Key Highlights
 
-	•	K-Fold Cross Validation
-	•	Scikit-Learn Pipelines
-	•	GridSearchCV for hyperparameter tuning
+- ✔️ Implemented ML models from scratch  
+- ✔️ Used pipelines for clean workflows  
+- ✔️ Applied GridSearchCV for tuning  
+- ✔️ Practiced cross-validation techniques  
 
-Pipelines are used to combine preprocessing and modeling steps into a single workflow, improving reproducibility and reducing data leakage.
+---
 
-## Tools and Libraries
-	•	Python
-	•	NumPy
-	•	Pandas
-	•	Matplotlib
-	•	Seaborn
-	•	Scikit-Learn
-	•	Jupyter Notebook
+## 🚀 Future Improvements
 
-## Learning Objective
+-  Deploy ML models using Streamlit  
+-  Work on real-world datasets  
+-  Build deep learning projects  
+-  Create API-based ML services  
 
-This repository is part of my machine learning journey.
+---
 
-The focus is on:
+## 📈 Goals
 
-	•	Understanding ML algorithms conceptually
-	•	Implementing models using Scikit-Learn
-	•	Practicing with real datasets
-	•	Applying feature engineering techniques
-	•	Using pipelines and GridSearchCV
+I aim to:
+- Become a skilled ML Engineer  
+- Build impactful real-world applications  
+- Start freelancing and tech-based projects  
 
-**Building portfolio-ready ML projects**
 
-## Future Additions
-
-	•	Model deployment
