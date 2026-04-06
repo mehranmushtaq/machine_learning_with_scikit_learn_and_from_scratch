@@ -14,7 +14,7 @@ The goal of this repository is to build a strong practical foundation in **machi
 │   └── insurance.csv
 ├── Decision tree/
 │   ├── decision_tree_classifier.ipynb
-|   ├── decision_tree_regressor.ipynb
+│   ├── decision_tree_regressor.ipynb
 │   └── README.md
 ├── KNN/
 │   ├── Knn.ipynb
@@ -34,8 +34,9 @@ The goal of this repository is to build a strong practical foundation in **machi
 │   │   ├── loan_approval_data.csv
 │   │   └── README.md
 │   └── ecommerce-purchase-prediction/
-│       ├── predicting_ecommerce.ipynb
-│       └── shop_smart_ecommerce.csv
+│   │   ├── predicting_ecommerce.ipynb
+│   │   ├── shop_smart_ecommerce.csv
+│   │   └── README.md
 ├── Regularization(Lasso/Ridge)/
 │   ├── lasso_ridge.ipynb
 │   └── README.md
