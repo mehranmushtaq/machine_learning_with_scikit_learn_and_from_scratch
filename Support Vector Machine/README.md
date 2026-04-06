@@ -29,7 +29,7 @@ The objective of this project is to demonstrate the versatility of SVMs across d
 
 ### Performance Benchmarks
 
-Classification Results (Iris Dataset)
+## Classification Results (Iris Dataset)
 
 The model aims to classify flowers into three species. The RBF and Linear kernels showed the highest stability.
 
@@ -40,4 +40,18 @@ The model aims to classify flowers into three species. The RBF and Linear kernel
 | **Sigmoid** | 0.91 | 0.92 | 0.91 | 0.91 |
 | **Polynomial** | 0.88 | 0.90 | 0.87 | 0.87 |
 
+## Regression Results (Diabetes Dataset)
 
+Predicting disease progression. The model was tuned to find the best balance between bias and variance.
+
+• Optimal Parameters: {'C': 10, 'epsilon': 0.1, 'kernel': 'linear'}
+
+• Training \bm{R^2} Score: 0.515
+
+• Testing \bm{R^2} Score: 0.474
+
+### Future Improvements
+
+• Feature Selection: Applying PCA (Principal Component Analysis) to reduce dimensionality.
+• Extended Tuning: Exploring a wider range for the Gamma parameter in RBF kernels.
+• Model Comparison: Benchmarking these results against Random Forest or Gradient Boosting models.
