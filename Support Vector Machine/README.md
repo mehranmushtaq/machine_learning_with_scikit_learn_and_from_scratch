@@ -1,57 +1,43 @@
-## Support Vector Machine (SVM) Implementation
+## Support Vector Machines (SVM) Implementation
 
-This repository contains practical implementations of **Support Vector Machines using scikit-learn**. It covers data preprocessing, model training with various kernels, and hyperparameter tuning for both classification and regression tasks.
+This repository provides a comprehensive implementation of Support Vector Machines (SVM) for both Classification (SVC) and Regression (SVR) tasks. The project focuses on data preprocessing, kernel experimentation, and hyperparameter optimization using scikit-learn.
 
-## Project Overview
+### Overview
 
-Support Vector Machine is a powerful supervised learning algorithm used for both classification and regression. This project demonstrates how to:
+The objective of this project is to demonstrate the versatility of SVMs across different types of data. We explore how different mathematical kernels—Linear, Polynomial, Radial Basis Function (RBF), and Sigmoid—affect the decision boundary and predictive power of the models.
 
-• Preprocess data using StandardScaler.
 
-• Implement SVC **(Support Vector Classification)** using different kernels.
+### Technical Workflow
 
-• Optimize models by tuning the regularization parameter **C**.
-
-## Tech Stack
-
-• Language: Python
-
-• Libraries: pandas, scikit-learn, numpy
-
-• Environment: Jupyter Notebook 
-
-## Dataset
-
-The classification examples currently use the Iris Dataset, a classic multi-class classification dataset containing:
-
-• 4 Features: Sepal length, Sepal width, Petal length, Petal width.
-
-• Target: 3 classes of iris plants (Setosa, Versicolour, Virginica).
-
-## Implementation Details
-
-## Kernels Explored
+1.	Exploratory Data Analysis (EDA): Checking for null values and understanding feature distributions using pandas.
    
-The notebook compares the performance of different SVM kernels:
+2.	Data Preprocessing:
+	
+• Feature Scaling: Essential for SVMs, as they are distance-based algorithms. We utilized StandardScaler to ensure all features contribute equally to the distance metric.
 
-• RBF (Radial Basis Function): The default and usually most effective for non-linear data.
+• Data Splitting: Used train_test_split with a 70/30 ratio and random_state=42 for reproducibility.
 
-• Linear: Best suited for linearly separable data.
+3.	Model Selection & Training:
 
-• Polynomial: Useful for capturing complex feature interactions.
+• Implemented SVC for the Iris Dataset (Classification).
 
-• Sigmoid: Often used in neural network contexts.
+• Implemented SVR for the Diabetes Dataset (Regression).
 
-## Performance Comparison
+4.	Hyperparameter Tuning:
 
-| Kernel | Accuracy | Complexity |
-| :--- | :--- | :--- |
-| **RBF** | 0.933 | High |
-| **Linear** | 0.911 | Low |
-| **Sigmoid** | 0.911 | Medium |
-| **Polynomial** | 0.866 | Very High |
+• Used GridSearchCV to iterate through combinations of C (regularization), epsilon (margin of error), and kernel types.
+
+### Performance Benchmarks
+
+Classification Results (Iris Dataset)
+
+The model aims to classify flowers into three species. The RBF and Linear kernels showed the highest stability.
+
+| Model/Kernel | Accuracy | Precision | Recall | F1-Score |
+| :--- | :---: | :---: | :---: | :---: |
+| **Linear** | 0.93 | 0.93 | 0.93 | 0.93 |
+| **RBF (C=0.5)** | 0.93 | 0.93 | 0.93 | 0.93 |
+| **Sigmoid** | 0.91 | 0.92 | 0.91 | 0.91 |
+| **Polynomial** | 0.88 | 0.90 | 0.87 | 0.87 |
 
 
-## Hyperparameter Tuning
-
-A loop was implemented to test different values for the regularization parameter **C**. Higher values of **C** aim for a smaller-margin hyperplane if that hyperplane does a better job of getting all the training points classified correctly
