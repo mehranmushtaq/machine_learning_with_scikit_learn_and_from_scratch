@@ -15,10 +15,6 @@ The goal of this repository is to build a strong practical foundation in **machi
 ├── Decision tree/
 │   ├── decision_tree_classifier.ipynb
 │   └── README.md
-├── Ensemble Learning/
-│   └── Random Forest(Bagging)/
-│       ├── Random_forest.ipynb
-│       └── README.md
 ├── KNN/
 │   ├── Knn.ipynb
 │   └── README.md
@@ -42,8 +38,16 @@ The goal of this repository is to build a strong practical foundation in **machi
 ├── Regularization(Lasso/Ridge)/
 │   ├── lasso_ridge.ipynb
 │   └── README.md
+├── ensemble learning/
+│   ├── bagging/
+│   │   ├── Random_forest.ipynb
+│   │   └── README.md
+│   └── boosting/
+│       ├── gradient_boosting.ipynb
+│       └── README.md
 ├── Support Vector Machine/
 │   ├── svc.ipynb
+│   ├── svr.ipynb
 │   └── README.md
 ├── ml-from-scratch/
 │   ├── linear_reg.ipynb
