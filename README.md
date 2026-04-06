@@ -1,8 +1,9 @@
-# 🚀 Machine Learning Portfolio – Spagly
+# 🚀 Machine Learning Portfolio 
 
-Welcome to my Machine Learning repository!  
+Welcome to my **Machine Learning repository!** 
 
 I am a **1st-year B.Tech CSE** student passionate about building real-world ML solutions and continuously improving my skills in data science and AI.
+
 ---
 
 ## Repository Structure
