@@ -53,5 +53,7 @@ Predicting disease progression. The model was tuned to find the best balance bet
 ### Future Improvements
 
 • Feature Selection: Applying PCA (Principal Component Analysis) to reduce dimensionality.
+
 • Extended Tuning: Exploring a wider range for the Gamma parameter in RBF kernels.
+
 • Model Comparison: Benchmarking these results against Random Forest or Gradient Boosting models.
