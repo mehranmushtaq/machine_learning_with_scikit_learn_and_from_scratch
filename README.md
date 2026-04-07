@@ -64,18 +64,18 @@ I am a **1st-year B.Tech CSE** student passionate about building real-world ML s
 
 This repository demonstrates a complete end-to-end Machine Learning workflow, including:
 
-- 📊 Data Preprocessing  
-- 🧠 Feature Engineering  
-- 📈 Data Visualization  
-- ⚙️ Pipeline Creation  
-- 🔍 Hyperparameter Tuning (GridSearchCV)  
-- 🔁 Cross Validation  
-- 📏 Model Evaluation  
+- Data Preprocessing  
+- Feature Engineering  
+- Data Visualization  
+- Pipeline Creation  
+- Hyperparameter Tuning (GridSearchCV)  
+- Cross Validation  
+- Model Evaluation  
 ---
 
 ##  Algorithms Implemented
 
-### 🔹 Supervised Learning
+### Supervised Learning
 - Linear Regression  
 - Logistic Regression  
 - K-Nearest Neighbors (KNN)  
@@ -83,11 +83,11 @@ This repository demonstrates a complete end-to-end Machine Learning workflow, in
 - Decision Trees  
 - Support Vector Machines (SVM)
 
-### 🔹 Regularization
+### Regularization
 - Lasso Regression  
 - Ridge Regression  
 
-### 🔹 Ensemble Learning
+### Ensemble Learning
 - Bagging (Random Forest)  
 - Boosting (Gradient Boosting)
 
