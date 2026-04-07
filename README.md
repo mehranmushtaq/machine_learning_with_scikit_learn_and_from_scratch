@@ -111,7 +111,7 @@ This repository demonstrates a complete end-to-end Machine Learning workflow, in
 
 ##  Tech Stack
 
-- Python 🐍 
+- Python 
 - NumPy & Pandas  
 - Matplotlib & Seaborn  
 - Scikit-learn  
