@@ -48,6 +48,8 @@ I am a **1st-year B.Tech CSE** student passionate about building real-world ML s
 │   │   └── README.md
 │   └── boosting/
 │       ├── gradient_boosting.ipynb
+│       ├── ada_boosting.ipynb
+│       ├── xgboost.ipynb
 │       └── README.md
 ├── Support Vector Machine/
 │   ├── svc.ipynb
