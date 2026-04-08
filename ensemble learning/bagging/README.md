@@ -66,8 +66,6 @@ bagging_dt = BaggingClassifier(base_model_dt, n_estimators=201)
 | Random Forest (OOB) | ~82.02% |
 | Random Forest (test) | ~81.72% |
 | Bagging DT (test) | ~77.61% |
-| Bagging LR (test) | ~79.85% |
-
 
 ## Key Concepts
 
