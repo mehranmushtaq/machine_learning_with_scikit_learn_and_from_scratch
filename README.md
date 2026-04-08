@@ -92,7 +92,9 @@ This repository demonstrates a complete end-to-end Machine Learning workflow, in
 ### Ensemble Learning
 - Bagging (Random Forest)  
 - Boosting (Gradient Boosting)
-
+- Ada Boosting
+- XGBoost
+  
 ---
 
 ## 📂 Projects
