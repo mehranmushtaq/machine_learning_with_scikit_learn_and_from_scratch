@@ -139,13 +139,6 @@ This repository demonstrates a complete end-to-end Machine Learning workflow, in
 -  Build deep learning projects  
 -  Create API-based ML services  
 
----
-
-##  Goals
-
-I aim to:
-- Become a skilled ML Engineer  
-- Build impactful real-world applications  
-- Start freelancing and tech-based projects  
+ 
 
 
