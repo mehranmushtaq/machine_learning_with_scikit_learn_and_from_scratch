@@ -80,12 +80,12 @@ Visualizes how well the model's predictions align with reality.
 
 ##  Skills Demonstrated
 
-• ✅ Regularized Regression (L1 & L2)
+• Regularized Regression (L1 & L2)
 
-• ✅ Advanced Feature Engineering
+• Advanced Feature Engineering
 
-• ✅ Cross-Validation & Hyperparameter Tuning
+• Cross-Validation & Hyperparameter Tuning
 
-• ✅ Data Standardization & Pipeline Construction
+• Data Standardization & Pipeline Construction
 
-• ✅ Model Evaluation & Comparison
+• Model Evaluation & Comparison
