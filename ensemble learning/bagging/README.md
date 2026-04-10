@@ -39,7 +39,7 @@ model = DecisionTreeClassifier(max_depth=4)
 ```
 
 ## 2. Random Forest
-An ensemble of 501 decision trees, each trained on a random subset of data and features. Out-of-Bag (OOB) scoring is enabled as a built-in internal validation mechanism — no separate validation split needed.
+An ensemble of 501 decision trees, each trained on a random subset of data and features. **Out-of-Bag (OOB)** scoring is enabled as a built-in internal validation mechanism — no separate validation split needed.
 
 ```
 rf = RandomForestClassifier(
