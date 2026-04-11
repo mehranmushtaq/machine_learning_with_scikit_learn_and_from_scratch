@@ -63,9 +63,11 @@ I am a **1st-year B.Tech CSE** student passionate about building real-world ML s
 │   ├── linear_reg.ipynb
 │   ├── logistic_reg.ipynb
 │   └── knn_regressor.ipynb
+├── notebooks_vs_production.md   
+├── requirements.txt
 ├── README.md
-└── requirements.txt
 ```
+
 ## What This Repository Covers
 
 This repository demonstrates a complete end-to-end Machine Learning workflow, including:
