@@ -39,6 +39,10 @@ I am a **1st-year B.Tech CSE** student passionate about building real-world ML s
 │   │   ├── predicting_ecommerce.ipynb
 │   │   ├── shop_smart_ecommerce.csv
 │   │   └── README.md
+│   └── disease_prediction_pipeline/
+│   │   ├── disease_prediction_pipeline.ipynb
+│   │   ├── novagen_dataset.csv
+│   │   └── README.md
 ├── Regularization(Lasso/Ridge)/
 │   ├── lasso_ridge.ipynb
 │   └── README.md
