@@ -63,6 +63,11 @@ I am a **1st-year B.Tech CSE** student passionate about building real-world ML s
 │   ├── linear_reg.ipynb
 │   ├── logistic_reg.ipynb
 │   └── knn_regressor.ipynb
+├── unsupervised ml/
+│   ├── dbscan.ipynb
+│   ├── hiearchichal_clustering.ipynb
+│   ├── k_means.ipynb
+│   └── k_means_clustering.ipynb
 ├── notebooks_vs_production.md   
 ├── requirements.txt
 ├── README.md
