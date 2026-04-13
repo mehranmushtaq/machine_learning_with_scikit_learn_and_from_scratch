@@ -21,7 +21,7 @@ I am a **1st-year B.Tech CSE** student passionate about building real-world ML s
 ├── KNN/
 │   ├── Knn.ipynb
 │   └── README.md
-├── Linear Regression/
+├── linear_regression/
 │   ├── Linear_regression.ipynb
 │   └── README.md
 ├── Logistic Regression/
