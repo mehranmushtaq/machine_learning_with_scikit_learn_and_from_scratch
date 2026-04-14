@@ -67,7 +67,8 @@ I am a **1st-year B.Tech CSE** student passionate about building real-world ML s
 │   ├── dbscan.ipynb
 │   ├── hiearchichal_clustering.ipynb
 │   ├── k_means.ipynb
-│   └── k_means_clustering.ipynb
+│   ├── k_means_clustering.ipynb
+│   └── README.md
 ├── notebooks_vs_production.md   
 ├── requirements.txt
 ├── README.md
