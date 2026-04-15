@@ -139,8 +139,8 @@ Exercise_Hours   ███████
 disease_prediction_pipeline/
 │
 ├── disease_prediction_pipeline.ipynb   # Main notebook
-├── mossgan_dataset_csv.csv             # Dataset
-└── README.md                           # You are here
+├── novagen_dataset.csv                 # Dataset
+└── README.md                           
 ```
 
 -----
