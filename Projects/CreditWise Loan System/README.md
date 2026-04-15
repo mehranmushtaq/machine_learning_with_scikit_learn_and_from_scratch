@@ -179,14 +179,12 @@ Feature engineering improved Naive Bayes precision from **0.857 → 0.885** (+3.
 
 ## Tech Stack
 
-```
-Python 3
-pandas · numpy · seaborn · matplotlib
-scikit-learn
-  ├── Preprocessing  → SimpleImputer, LabelEncoder, OneHotEncoder, StandardScaler
-  ├── Models         → LogisticRegression, KNeighborsClassifier, GaussianNB
-  └── Evaluation     → confusion_matrix, accuracy_score, precision_score, f1_score, recall_score
-```
+![Python](https://img.shields.io/badge/Python-3.10+-3776AB?style=flat-square&logo=python&logoColor=white)
+![Scikit-Learn](https://img.shields.io/badge/Scikit--Learn-1.x-F7931E?style=flat-square&logo=scikit-learn&logoColor=white)
+![Pandas](https://img.shields.io/badge/Pandas-150458?style=flat-square&logo=pandas&logoColor=white)
+![Seaborn](https://img.shields.io/badge/Seaborn-4c72b0?style=flat-square)
+![Matplotlib](https://img.shields.io/badge/Matplotlib-11557c?style=flat-square)
+![Jupyter](https://img.shields.io/badge/Jupyter-F37626?style=flat-square&logo=jupyter&logoColor=white)
 
 -----
 
