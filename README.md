@@ -186,7 +186,7 @@ pip install -r requirements.txt
 jupyter notebook
 ```
 
-## 🧰 Tech Stack
+## Tech Stack
 
 ![Python](https://img.shields.io/badge/Python-3.10+-3776AB?style=flat-square&logo=python&logoColor=white)
 ![Scikit-Learn](https://img.shields.io/badge/Scikit--Learn-1.x-F7931E?style=flat-square&logo=scikit-learn&logoColor=white)
@@ -198,7 +198,7 @@ jupyter notebook
 
 -----
 
-## 📚 Key Concepts Practiced
+## Key Concepts Practiced
 
 ```
   Data Preprocessing & Feature Engineering
@@ -216,7 +216,7 @@ jupyter notebook
 
 -----
 
-## 👤 Author
+## Author
 
 **Mehran Mushtaq**
 · Data Science & Machine Learning Track
