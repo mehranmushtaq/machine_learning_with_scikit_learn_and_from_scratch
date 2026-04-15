@@ -219,6 +219,7 @@ jupyter notebook
 ## Author
 
 **Mehran Mushtaq**
+
 · Data Science & Machine Learning Track
 
 [![GitHub](https://img.shields.io/badge/GitHub-mehranmushtaq-181717?style=flat-square&logo=github)](https://github.com/mehranmushtaq)
