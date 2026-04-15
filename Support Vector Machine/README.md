@@ -46,9 +46,9 @@ Predicting disease progression. The model was tuned to find the best balance bet
 
 • Optimal Parameters: {'C': 10, 'epsilon': 0.1, 'kernel': 'linear'}
 
-• Training \bm{R^2} Score: 0.515
+• Training R^2 Score: 0.515
 
-• Testing \bm{R^2} Score: 0.474
+• Testing R^2 Score: 0.474
 
 ### Future Improvements
 
