@@ -2,7 +2,10 @@
 
 ### *End-to-End Machine Learning Repository*
 
-> **mehranmushtaq** · Internship Learning Track · Python · Scikit-Learn
+> **mehranmushtaq** 
+· Internship Learning Track 
+· Python 
+· Scikit-Learn
 
 -----
 
