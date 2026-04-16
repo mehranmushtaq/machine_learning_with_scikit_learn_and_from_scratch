@@ -191,8 +191,8 @@ Feature engineering improved Naive Bayes precision from **0.857 → 0.885** (+3.
 ## Getting Started
 
 ```bash
-git clone https://github.com/mehranmushtaq/Machine-Learning-with-scikit-learn-and-from-scratch.git
-cd "Machine-Learning-with-scikit-learn-and-from-scratch/Projects/CreditWise Loan System"
+git clone https://github.com/mehranmushtaq/machine_learning_with_scikit_learn_and_from_scratch.git
+cd "machine_learning_with_scikit_learn_and_from_scratch/Projects/CreditWise Loan System"
 
 pip install pandas numpy seaborn matplotlib scikit-learn
 
