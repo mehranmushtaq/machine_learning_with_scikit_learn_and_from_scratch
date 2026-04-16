@@ -181,7 +181,7 @@ All plots use `matplotlib` with `coolwarm` colormap and are sized at 8×6 inches
 
 ```bash
 # 1. Clone the repository
-git clone https://github.com/your-username/thyroid-outlier-detection.git
+git clone https://github.com/mehranmushtaq/thyroid-outlier-detection.git
 cd thyroid-outlier-detection
 
 # 2. Install required libraries
@@ -190,7 +190,7 @@ pip install pandas numpy scikit-learn matplotlib seaborn jupyterlab
 # 3. Launch JupyterLab
 jupyter lab
 
-# 4. Open and run isolation_forest.ipynb
+# 4. Open and run thyroid_outlier_detection.ipynb
 ```
 
 > **Note:** Ensure `thyroid_dataset.csv` is in the same directory as the notebook before running.
