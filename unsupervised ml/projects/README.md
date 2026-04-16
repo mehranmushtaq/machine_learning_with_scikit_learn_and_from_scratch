@@ -170,18 +170,6 @@ All plots use `matplotlib` with `coolwarm` colormap and are sized at 8×6 inches
 
 -----
 
-## Project Structure
-
-```
-thyroid-outlier-detection/
-│
-├── isolation_forest.ipynb     # Main analysis notebook
-├── thyroid_dataset.csv        # Raw dataset
-└── README.md                  # Project documentation
-```
-
------
-
 ## How to Run
 
 ### Prerequisites
