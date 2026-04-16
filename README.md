@@ -34,46 +34,46 @@ Every folder tells a chapter of that story: understanding *why* an algorithm wor
 ## Repository Structure
 
 ```
-Machine-Learning-with-scikit-learn-and-from-scratch/
+machine_learning_with_scikit_learn_and_from_scratch/
 │
-├── Datasets/                              # Shared datasets across experiments
+├── 📁 Datasets/                              # Shared datasets used across modules
 │   ├── Emotion_classify_Data.csv
 │   ├── Iris.csv
 │   ├── Social_Network_Ads.csv
 │   ├── house_prices_practice.csv
 │   └── insurance.csv
 │
-├── Decision Tree/
+├── 📁 linear_regression/
+│   ├── Linear_regression.ipynb
+│   └── README.md
+│
+├── 📁 Logistic Regression/
+│   ├── Logistic_Regressor.ipynb
+│   └── README.md
+│
+├── 📁 KNN/
+│   ├── Knn.ipynb
+│   └── README.md
+│
+├── 📁 Decision Tree/
 │   ├── decision_tree_classifier.ipynb
 │   ├── decision_tree_regressor.ipynb
 │   └── README.md
 │
-├── KNN/
-│   ├── Knn.ipynb
-│   └── README.md
-│
-├── linear_regression/
-│   ├── Linear_regression.ipynb
-│   └── README.md
-│
-├── Logistic Regression/
-│   ├── Logistic_Regressor.ipynb
-│   └── README.md
-│
-├── Naive Bayes/
+├── 📁 Naive Bayes/
 │   ├── naive_bayes.ipynb
 │   └── README.md
 │
-├── Regularization(Lasso/Ridge)/
-│   ├── lasso_ridge.ipynb
-│   └── README.md
-│
-├── Support Vector Machine/
+├── 📁 Support Vector Machine/
 │   ├── svc.ipynb
 │   ├── svr.ipynb
 │   └── README.md
 │
-├── ensemble learning/
+├── 📁 Regularization (Lasso/Ridge)/
+│   ├── lasso_ridge.ipynb
+│   └── README.md
+│
+├── 📁 ensemble learning/
 │   ├── bagging/
 │   │   ├── Random_forest.ipynb
 │   │   └── README.md
@@ -83,35 +83,42 @@ Machine-Learning-with-scikit-learn-and-from-scratch/
 │       ├── xgboost.ipynb
 │       └── README.md
 │
-├── ml-from-scratch/                       # Algorithms without sklearn
+├── 📁 ml-from-scratch/                       # Algorithms without any sklearn
 │   ├── linear_reg.ipynb
 │   ├── logistic_reg.ipynb
-│   └── knn_regressor.ipynb
-│
-├── unsupervised ml/
-│   ├── dbscan.ipynb
-│   ├── hiearchichal_clustering.ipynb
-│   ├── k_means.ipynb
-│   ├── k_means_clustering.ipynb
+│   ├── knn_regressor.ipynb
 │   └── README.md
 │
-├── Projects/                              # Applied end-to-end projects
-│   ├── CreditWise Loan System/
+├── 📁 unsupervised ml/
+│   ├── k_means.ipynb
+│   ├── k_means_clustering.ipynb
+│   ├── hiearchichal_clustering.ipynb
+│   ├── dbscan.ipynb
+│   ├── README.md
+│   └── 📁 projects/
+│       └── 📁 thyroid_outlier_detection/      ← NEW
+│           ├── thyroid_outlier_detection.ipynb
+│           ├── thyroid_dataset.csv
+│           └── README.md
+│
+├── 📁 Projects/                              # Applied end-to-end projects
+│   ├── 📁 CreditWise Loan System/
 │   │   ├── Loan_Approval.ipynb
 │   │   ├── loan_approval_data.csv
 │   │   └── README.md
-│   ├── ecommerce-purchase-prediction/
+│   ├── 📁 ecommerce-purchase-prediction/
 │   │   ├── predicting_ecommerce.ipynb
 │   │   ├── shop_smart_ecommerce.csv
 │   │   └── README.md
-│   └── disease_prediction_pipeline/
+│   └── 📁 disease_prediction_pipeline/
 │       ├── disease_prediction_pipeline.ipynb
 │       ├── novagen_dataset.csv
 │       └── README.md
 │
-├── notebooks_vs_production.md
+├── notebook_vs_production.md
 ├── requirements.txt
-└── README.md
+└── README.md                                 ← You are here
+
 ```
 
 -----
