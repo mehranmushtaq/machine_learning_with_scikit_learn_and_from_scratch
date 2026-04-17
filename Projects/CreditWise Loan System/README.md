@@ -264,10 +264,10 @@ jupyter notebook Loan_Approval.ipynb
 ```
 CreditWise Loan System/
 │
-├── loan_approval.py              # ✅ Standalone Python script (Run this from terminal!)
+├── loan_approval.py              #  Standalone Python script (Run this from terminal!)
 ├── Loan_Approval.ipynb           # Jupyter notebook with full analysis
-├── loan_approval_data.csv        # Dataset (required for script to run)
-└── README.md                     # This file
+├── loan_approval_data.csv        
+└── README.md                  
 ```
 
 -----
