@@ -30,9 +30,8 @@ Each module follows a consistent pattern:
 ## Repository Structure
 
 ```
-machine_learning_with_scikit_learn_and_from_scratch/
-│
-├── 📁 Datasets/                              # Shared datasets used across modules
+machine_learning_with_scikit_learn_and_from_scratch
+├── 📁 Datasets/                              # Shared datasets for all models
 │   ├── Emotion_classify_Data.csv
 │   ├── Iris.csv
 │   ├── Social_Network_Ads.csv
@@ -79,7 +78,7 @@ machine_learning_with_scikit_learn_and_from_scratch/
 │       ├── xgboost.ipynb
 │       └── README.md
 │
-├── 📁 ml-from-scratch/                       # Algorithms without any sklearn
+├── 📁 ml-from-scratch/                       # Pure Python/NumPy implementations
 │   ├── linear_reg.ipynb
 │   ├── logistic_reg.ipynb
 │   ├── knn_regressor.ipynb
@@ -97,9 +96,10 @@ machine_learning_with_scikit_learn_and_from_scratch/
 │           ├── thyroid_dataset.csv
 │           └── README.md
 │
-├── 📁 Projects/                              
+├── 📁 Projects/                              # End-to-end applications
 │   ├── 📁 CreditWise Loan System/
-│   │   ├── Loan_Approval.ipynb
+│   │   ├── loan_approval.ipynb
+│   │   ├── loan_approval.py                
 │   │   ├── loan_approval_data.csv
 │   │   └── README.md
 │   ├── 📁 ecommerce-purchase-prediction/
@@ -111,9 +111,9 @@ machine_learning_with_scikit_learn_and_from_scratch/
 │       ├── novagen_dataset.csv
 │       └── README.md
 │
-├── notebook_vs_production.md
-├── requirements.txt
-└── README.md                                 
+├── notebook_vs_production.md                 # Documentation on script conversion
+├── requirements.txt                          # Project dependencies
+└── README.md                                 # Main landing page                          
 ```
 
 -----
