@@ -181,7 +181,7 @@ All plots use `matplotlib` with `coolwarm` colormap and are sized at 8×6 inches
 
 ```bash
 # 1. Clone the repository
-git clone https://github.com/Machine-Learning-with-scikit-learn-and-from-scratch/unsupervised_ml/projects/thyroid-outlier-detection.git
+git clone https://github.com/machine_learning_with_scikit_learn_and_from_scratch/unsupervised_ml/projects/thyroid-outlier-detection.git
 cd thyroid-outlier-detection
 
 # 2. Install required libraries
