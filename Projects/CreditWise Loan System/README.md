@@ -12,14 +12,14 @@
 
 Until now, the bank has relied on a **manual verification process** — loan officers evaluating applications by checking income proofs, employment details, credit history, and documents. This process is:
 
--  **Time-consuming** — slows down the approval pipeline
--  **Biased** — subject to individual officer judgment
+- **Time-consuming** — slows down the approval pipeline
+- **Biased** — subject to individual officer judgment
 - **Inconsistent** — same profile, different outcomes
 
 This creates two critical business failures:
 
 > 1. **Good customers sometimes get rejected** — leading to loss of business
-> 2. **High-risk customers sometimes get approved** — leading to financial losses
+> 1. **High-risk customers sometimes get approved** — leading to financial losses
 
 -----
 
@@ -190,14 +190,105 @@ Feature engineering improved Naive Bayes precision from **0.857 → 0.885** (+3.
 
 ## Getting Started
 
+### Option 1: Run the Python Script (Standalone)
+
+The project includes a complete Python script (`loan_approval.py`) that you can run directly from your terminal.
+
+#### Prerequisites
+
+Ensure you have **Python 3.7+** installed. Check with:
+
 ```bash
-git clone https://github.com/mehranmushtaq/machine_learning_with_scikit_learn_and_from_scratch.git
-cd "machine_learning_with_scikit_learn_and_from_scratch/Projects/CreditWise Loan System"
+python --version
+```
 
-pip install pandas numpy seaborn matplotlib scikit-learn
+#### Installation & Setup
 
+1. **Clone the repository:**
+   
+   ```bash
+   git clone https://github.com/mehranmushtaq/machine_learning_with_scikit_learn_and_from_scratch.git
+   cd "machine_learning_with_scikit_learn_and_from_scratch/Projects/CreditWise Loan System"
+   ```
+1. **Install required dependencies:**
+   
+   ```bash
+   pip install pandas numpy seaborn matplotlib scikit-learn
+   ```
+1. **Ensure the dataset is in the same directory:**
+- The script expects `loan_approval_data.csv` to be in the same folder as `loan_approval.py`
+
+#### Running the Script
+
+Execute the script from your terminal:
+
+```bash
+python loan_approval.py
+```
+
+**What happens when you run it:**
+
+- Loads and cleans the loan approval dataset
+- Performs Exploratory Data Analysis (EDA) with visualizations
+- Encodes categorical features
+- Trains three ML models: Logistic Regression, K-Nearest Neighbors, and Naive Bayes
+- Displays evaluation metrics (Precision, Accuracy, F1 Score, Recall, Confusion Matrix)
+- Performs feature engineering on the best model
+- Shows performance comparison before and after feature engineering
+- Displays all generated plots (histograms, boxplots, heatmaps, etc.)
+
+#### Expected Output
+
+The terminal will print:
+
+- Data shape and missing values summary
+- Class distribution
+- Model performance metrics for each algorithm
+- Feature importance rankings
+- Visualization plots will pop up in a window
+
+-----
+
+### Option 2: Run the Jupyter Notebook
+
+Alternatively, you can explore the analysis interactively using Jupyter:
+
+```bash
 jupyter notebook Loan_Approval.ipynb
 ```
+
+-----
+
+## File Structure
+
+```
+CreditWise Loan System/
+│
+├── loan_approval.py              # ✅ Standalone Python script (Run this from terminal!)
+├── Loan_Approval.ipynb           # Jupyter notebook with full analysis
+├── loan_approval_data.csv        # Dataset (required for script to run)
+└── README.md                     # This file
+```
+
+-----
+
+## Troubleshooting
+
+**Error: `No module named 'pandas'`**
+
+- Solution: Run `pip install pandas numpy seaborn matplotlib scikit-learn`
+
+**Error: `loan_approval_data.csv not found`**
+
+- Solution: Make sure the CSV file is in the same directory as `loan_approval.py`
+
+**Error: `ModuleNotFoundError` for seaborn or matplotlib**
+
+- Solution: Install missing packages with `pip install seaborn matplotlib`
+
+**Plots not displaying**
+
+- The script uses `plt.show()` at the end to display all plots. Make sure your terminal/IDE supports GUI windows, or run in an environment with display capabilities.
 
 -----
 
@@ -210,6 +301,18 @@ Being my **first ML project**, here’s what building it taught me:
 1. **EDA tells you where to look** — the credit score histogram was the single most useful plot
 1. **Simple models are powerful** — Naive Bayes outperformed KNN with zero tuning
 1. **Feature engineering earns its keep** — 3% precision gain from just three new columns
+
+-----
+
+## Next Steps
+
+To improve this project further, consider:
+
+- Hyperparameter tuning (GridSearchCV, RandomizedSearchCV)
+- Cross-validation for more robust evaluation
+- Handling class imbalance (SMOTE, class weights)
+- Ensemble methods (Random Forest, Gradient Boosting)
+- Model deployment as a REST API
 
 -----
 
