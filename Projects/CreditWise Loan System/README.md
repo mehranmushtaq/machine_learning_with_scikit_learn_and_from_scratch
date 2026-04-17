@@ -54,14 +54,14 @@ Each row represents a **loan applicant** and contains multiple attributes descri
 
 ## Solution Walkthrough
 
-### 1.Data Loading & Cleaning
+### 1. Data Loading & Cleaning
 
 - Loaded `loan_approval_data.csv` — 1,000 entries, 20 columns
 - Identified and handled missing values:
   - **Numerical columns** → imputed with `mean` using `SimpleImputer`
   - **Categorical columns** → imputed with `most_frequent` strategy
 
-### 2.Exploratory Data Analysis (EDA)
+### 2. Exploratory Data Analysis (EDA)
 
 **Is the data balanced?**
 
@@ -86,19 +86,19 @@ Each row represents a **loan applicant** and contains multiple attributes descri
 - Approved applicants cluster strongly at **700+**
 - Rejected applicants spread across 550–700
 
-### 3.Encoding
+### 3. Encoding
 
 - **Label Encoding** → `Education_Level`, `Loan_Approved`
 - **One-Hot Encoding** → `Employment_Status`, `Marital_Status`, `Loan_Purpose`, `Property_Area`, `Gender`, `Employer_Category`
 - Dropped `Applicant_ID` — non-predictive identifier
 - Resulting feature set: **28 columns**
 
-### 4.Correlation Heatmap
+### 4. Correlation Heatmap
 
 - Full correlation matrix on all numeric features
 - Confirmed `Credit_Score` and `DTI_Ratio` as top predictors
 
-### 5.Train-Test Split & Feature Scaling
+### 5. Train-Test Split & Feature Scaling
 
 ```python
 X_train, X_test, y_train, y_test = train_test_split(X, y, test_size=0.33, random_state=2)
@@ -107,7 +107,7 @@ X_train_scaled = scaler.fit_transform(X_train)
 X_test_scaled  = scaler.transform(X_test)
 ```
 
-### 6.Model Training & Evaluation
+### 6. Model Training & Evaluation
 
 #### Logistic Regression
 
@@ -144,7 +144,7 @@ X_test_scaled  = scaler.transform(X_test)
 
 -----
 
-### 7.Feature Engineering
+### 7. Feature Engineering
 
 Engineered new features to capture non-linear relationships:
 
