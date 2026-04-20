@@ -89,7 +89,8 @@ machine_learning_with_scikit_learn_and_from_scratch
 │   ├── k_means_clustering.ipynb
 │   ├── hiearchichal_clustering.ipynb
 │   ├── dbscan.ipynb
-│   ├── README.md
+│   └── README.md
+│
 ├── 📁 Projects/                              # End-to-end applications
 │   ├── 📁 CreditWise Loan System/
 │   │   ├── loan_approval.ipynb
@@ -189,7 +190,7 @@ Automated loan risk classification using financial and demographic features. Ful
 
 ### Thyroid Outlier Detection 
 
-> `unsupervised ml/projects/thyroid_outlier_detection/` · Isolation Forest + LOF · 1,000 patients
+> `Projects/projects/thyroid_outlier_detection/` · Isolation Forest + LOF · 1,000 patients
 
 Detects anomalous thyroid hormone profiles in patient lab data using unsupervised anomaly detection. Combines Isolation Forest and Local Outlier Factor to flag clinically significant outliers without labeled training data.
 
