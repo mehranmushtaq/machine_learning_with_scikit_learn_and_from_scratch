@@ -1,4 +1,4 @@
-# 🤖 Machine Learning with Scikit-Learn & From Scratch
+# 🧠 Machine Learning with Scikit-Learn & From Scratch
 
 [![Python](https://img.shields.io/badge/Python-3.10+-3776AB?style=flat-square&logo=python&logoColor=white)](https://python.org)
 [![Scikit-Learn](https://img.shields.io/badge/Scikit--Learn-1.x-F7931E?style=flat-square&logo=scikit-learn&logoColor=white)](https://scikit-learn.org)
@@ -7,68 +7,84 @@
 [![License](https://img.shields.io/badge/License-MIT-green?style=flat-square)](LICENSE)
 [![Status](https://img.shields.io/badge/Status-Active-brightgreen?style=flat-square)]()
 
-**An end-to-end Machine Learning repository built during an intensive internship — covering supervised learning, unsupervised learning, ensemble methods, from-scratch implementations, and applied real-world projects.**
+### *End-to-End Machine Learning Repository*
 
-[Explore Projects](#-featured-projects) · [View Structure](#-repository-structure) · [Quick Start](#-quick-start) · [Author](#-author)
+> 🏆 **94.89% accuracy** on Disease Prediction  |  📈 **F1: 0.6485** on E-Commerce (18% above benchmark)  |  🔬 **9,800+ patient** dataset  |  🧬 **89% Precision@K** on Thyroid Outlier Detection
 
 -----
 
-## Overview
+> **mehranmushtaq**
+> · Internship Learning Track
+> · Python
+> · Scikit-Learn
 
-This repository is a **structured, production-minded ML learning track** developed as part of an internship program. It is not just a collection of notebooks — it is a curated journey through the fundamentals and applied practice of machine learning, built with an emphasis on **understanding before implementation**.
+-----
 
-Each module follows a consistent pattern:
+## What Is This Repository?
 
-- Conceptual grounding before code
-- Scikit-Learn pipeline-first design (no data leakage)
-- Hyperparameter tuning via `GridSearchCV`
-- Model evaluation with industry-standard metrics
-- Clean, commented notebooks suitable for portfolio review
+This isn’t just a collection of notebooks.
+
+It’s a **complete learning journey** — from implementing algorithms by hand to deploying production-ready ML pipelines — built over the course of an intensive internship.
+
+Every folder tells a chapter of that story: understanding *why* an algorithm works before trusting a library to do it. Writing clean pipelines. Tuning models properly. Building real projects that solve real problems.
+
+-----
+
+## What Makes This Different
+
+|Approach               |What Was Done                                                          |
+|-----------------------|-----------------------------------------------------------------------|
+|**From Scratch**       |Core algorithms implemented in pure Python/NumPy — no sklearn shortcuts|
+|**Pipelines**          |Clean, reproducible workflows using `sklearn.Pipeline`                 |
+|**GridSearchCV**       |Systematic hyperparameter tuning on real datasets                      |
+|**Cross-Validation**   |Robust evaluation using k-fold CV to prevent data leakage              |
+|**End-to-End Projects**|Full pipelines from raw data → model → evaluation → insight            |
 
 -----
 
 ## Repository Structure
 
 ```
-machine_learning_with_scikit_learn_and_from_scratch
-├── 📁 Datasets/                              # Shared datasets for all models
+ml-scikit-scratch/
+│
+├── Datasets/                              # Shared datasets across experiments
 │   ├── Emotion_classify_Data.csv
 │   ├── Iris.csv
 │   ├── Social_Network_Ads.csv
 │   ├── house_prices_practice.csv
 │   └── insurance.csv
 │
-├── 📁 linear_regression/
-│   ├── Linear_regression.ipynb
-│   └── README.md
-│
-├── 📁 Logistic Regression/
-│   ├── Logistic_Regressor.ipynb
-│   └── README.md
-│
-├── 📁 KNN/
-│   ├── Knn.ipynb
-│   └── README.md
-│
-├── 📁 Decision Tree/
+├── Decision Tree/
 │   ├── decision_tree_classifier.ipynb
 │   ├── decision_tree_regressor.ipynb
 │   └── README.md
 │
-├── 📁 Naive Bayes/
+├── KNN/
+│   ├── Knn.ipynb
+│   └── README.md
+│
+├── linear_regression/
+│   ├── Linear_regression.ipynb
+│   └── README.md
+│
+├── Logistic Regression/
+│   ├── Logistic_Regressor.ipynb
+│   └── README.md
+│
+├── Naive Bayes/
 │   ├── naive_bayes.ipynb
 │   └── README.md
 │
-├── 📁 Support Vector Machine/
+├── Regularization(Lasso/Ridge)/
+│   ├── lasso_ridge.ipynb
+│   └── README.md
+│
+├── Support Vector Machine/
 │   ├── svc.ipynb
 │   ├── svr.ipynb
 │   └── README.md
 │
-├── 📁 Regularization (Lasso/Ridge)/
-│   ├── lasso_ridge.ipynb
-│   └── README.md
-│
-├── 📁 ensemble learning/
+├── ensemble learning/
 │   ├── bagging/
 │   │   ├── Random_forest.ipynb
 │   │   └── README.md
@@ -78,181 +94,162 @@ machine_learning_with_scikit_learn_and_from_scratch
 │       ├── xgboost.ipynb
 │       └── README.md
 │
-├── 📁 ml-from-scratch/                       # Pure Python/NumPy implementations
+├── ml-from-scratch/                       # Algorithms without sklearn
 │   ├── linear_reg.ipynb
 │   ├── logistic_reg.ipynb
-│   ├── knn_regressor.ipynb
-│   └── README.md
+│   └── knn_regressor.ipynb
 │
-├── 📁 unsupervised ml/
+├── unsupervised ml/
+│   ├── dbscan.ipynb
+│   ├── hiearchichal_clustering.ipynb
 │   ├── k_means.ipynb
 │   ├── k_means_clustering.ipynb
-│   ├── hiearchichal_clustering.ipynb
-│   ├── dbscan.ipynb
 │   └── README.md
 │
-├── 📁 Projects/                              # End-to-end applications
-│   ├── 📁 CreditWise Loan System/
-│   │   ├── loan_approval.ipynb
-│   │   ├── loan_approval.py                
+├── Projects/                              # Applied end-to-end projects
+│   ├── CreditWise Loan System/
+│   │   ├── Loan_Approval.ipynb
 │   │   ├── loan_approval_data.csv
 │   │   └── README.md
-│   ├── 📁 ecommerce-purchase-prediction/
+│   ├── ecommerce-purchase-prediction/
 │   │   ├── predicting_ecommerce.ipynb
 │   │   ├── shop_smart_ecommerce.csv
 │   │   └── README.md
-│   ├── 📁 thyroid_outlier_detection/
+│   ├── thyroid_outlier_detection/
 │   │   ├── thyroid_outlier_detection.ipynb
 │   │   ├── thyroid_dataset.csv
 │   │   └── README.md
-│   └── 📁 disease_prediction_pipeline/
+│   └── disease_prediction_pipeline/
 │       ├── disease_prediction_pipeline.ipynb
 │       ├── novagen_dataset.csv
 │       └── README.md
 │
-├── notebook_vs_production.md                 # Documentation on script conversion
-├── requirements.txt                          # Project dependencies
-└── README.md                                 # Main landing page                          
+├── notebooks_vs_production.md
+├── requirements.txt
+└── README.md
 ```
 
 -----
 
-## Curriculum Coverage
+## What This Repository Covers
 
 ### Supervised Learning
 
-|Module                         |Algorithm                           |Key Concepts                                       |
-|-------------------------------|------------------------------------|---------------------------------------------------|
-|`linear_regression/`           |Ordinary Least Squares, Ridge, Lasso|Coefficients, MSE, R², Regularization              |
-|`Logistic Regression/`         |Binary & Multi-class LR             |Sigmoid, Cross-Entropy, Polynomial Features        |
-|`KNN/`                         |K-Nearest Neighbours                |Distance metrics, K tuning, Curse of Dimensionality|
-|`Decision Tree/`               |CART Classifier & Regressor         |Gini, Entropy, Pre/Post Pruning                    |
-|`Naive Bayes/`                 |Gaussian Naive Bayes                |Bayes Theorem, Conditional Independence            |
-|`Support Vector Machine/`      |SVC + SVR                           |Kernels (RBF, Poly), Margin, C & γ tuning          |
-|`Regularization (Lasso/Ridge)/`|L1 / L2 Penalty                     |Bias-Variance Trade-off                            |
+- **Linear Regression** — Predicting continuous outcomes; from OLS to regularised versions
+- **Logistic Regression** — Binary and multi-class classification with polynomial features
+- **K-Nearest Neighbours (KNN)** — Distance-based classification and regression
+- **Decision Trees** — Classifier & regressor with pre/post pruning strategies
+- **Naive Bayes** — Probabilistic classification with Gaussian distributions
+- **Support Vector Machines** — SVC for classification, SVR for regression
+- **Regularization** — Lasso (L1) and Ridge (L2) to control overfitting
 
 ### Ensemble Methods
 
-|Module                       |Technique                           |Highlights                        |
-|-----------------------------|------------------------------------|----------------------------------|
-|`ensemble learning/bagging/` |Random Forest                       |Feature Importance, OOB Score     |
-|`ensemble learning/boosting/`|AdaBoost, Gradient Boosting, XGBoost|Sequential learners, Learning rate|
+- **Bagging** — Random Forest with feature importance analysis
+- **Boosting** — AdaBoost, Gradient Boosting, and XGBoost
 
 ### Unsupervised Learning
 
-|Module                                               |Algorithm                    |Key Concepts                                         |
-|-----------------------------------------------------|-----------------------------|-----------------------------------------------------|
-|`unsupervised ml/`                                   |K-Means, Hierarchical, DBSCAN|Elbow Method, Dendrograms, Epsilon, Outlier Detection|
-|`unsupervised ml/projects/thyroid_outlier_detection/`|Isolation Forest + LOF       |Anomaly scoring, Medical outlier detection           |
+- **K-Means Clustering** — Centroid-based segmentation
+- **Hierarchical Clustering** — Agglomerative dendrograms
+- **DBSCAN** — Density-based anomaly-resistant clustering
 
-### ML From Scratch (Pure Python / NumPy)
+### ML From Scratch
 
-|Module                               |What’s Implemented                             |
-|-------------------------------------|-----------------------------------------------|
-|`ml-from-scratch/linear_reg.ipynb`   |Gradient Descent, cost function, weight updates|
-|`ml-from-scratch/logistic_reg.ipynb` |Sigmoid, binary cross-entropy, manual backprop |
-|`ml-from-scratch/knn_regressor.ipynb`|Euclidean distance, k-neighbor voting          |
+- Linear Regression (pure NumPy)
+- Logistic Regression (gradient descent by hand)
+- KNN Regressor (distance metrics implemented manually)
 
 -----
 
-##  Featured Projects
+## ⭐ Featured Projects
 
-### Disease Prediction Pipeline
+### 🏥 [Disease Prediction Pipeline](https://github.com/mehranmushtaq/ml-scikit-scratch/blob/main/Projects/disease_prediction_pipeline)
 
-> `Projects/disease_prediction_pipeline/` · Voting Classifier Ensemble · 9,800 patients
+> *NovaGen Research Labs · 9,800 patients · Voting Classifier Ensemble*
 
-A production-ready clinical classification system built for **NovaGen Research Labs**. Uses a hard-voting ensemble of Logistic Regression, Random Forest, and Naïve Bayes inside a full `sklearn.Pipeline` with stratified cross-validation.
+|Metric     |Score     |
+|-----------|----------|
+|✅ Accuracy |**94.89%**|
+|✅ CV Recall|**95.46%**|
 
-- **Accuracy:** 94.89%
-- **CV Recall:** 95.46%
-- **Use Case:** Clinical trial participant screening
-
------
-
-### E-Commerce Purchase Prediction
-
-> `Projects/ecommerce-purchase-prediction/` · Decision Tree · 12,330 sessions
-
-Predicts visitor-to-buyer conversion from behavioral session data. Addresses severe class imbalance (85/15 split) with `class_weight='balanced'` and depth pruning.
-
-- **F1-Score:** 0.6485 *(benchmark: 0.55 — +18% improvement)*
-- **Use Case:** Marketing conversion optimisation
+Classifies individuals as healthy or unhealthy using a full ensemble pipeline (Logistic Regression + Random Forest + Naïve Bayes). Production-ready for clinical trial participant selection.
 
 -----
 
-### CreditWise Loan Approval System
+### 🛒 [E-Commerce Purchase Prediction](https://github.com/mehranmushtaq/ml-scikit-scratch/blob/main/Projects/ecommerce-purchase-prediction)
 
-> `Projects/CreditWise Loan System/` · Classification Pipeline · End-to-end
+> *12,330 sessions · Decision Tree · F1-Score benchmark: 0.55*
 
-Automated loan risk classification using financial and demographic features. Full preprocessing pipeline with feature engineering, encoding, scaling, and model evaluation.
+|Metric           |Score     |
+|-----------------|----------|
+|✅ F1-Score       |**0.6485**|
+|✅ Above Benchmark|**+18%**  |
 
------
-
-### Thyroid Outlier Detection 
-
-> `Projects/thyroid_outlier_detection/` · Isolation Forest + LOF · 1,000 patients
-
-Detects anomalous thyroid hormone profiles in patient lab data using unsupervised anomaly detection. Combines Isolation Forest and Local Outlier Factor to flag clinically significant outliers without labeled training data.
-
-- **Precision@K:** 89%
-- **Use Case:** Automated lab result triage, rare disease flagging
+Predicts whether an online visitor will convert to a buyer. Tackled heavy class imbalance (85/15 split) with `class_weight='balanced'` and pruning strategies.
 
 -----
 
-## Quick Start
+### 💳 [CreditWise Loan Approval System](https://github.com/mehranmushtaq/ml-scikit-scratch/blob/main/Projects/CreditWise%20Loan%20System)
+
+> *Loan risk classification · End-to-end pipeline*
+
+Automated loan approval prediction using financial and demographic features. Full preprocessing pipeline with feature engineering and model evaluation.
+
+-----
+
+## Setup & Installation
 
 ```bash
-# 1. Clone the repository
-git clone https://github.com/mehranmushtaq/machine_learning_with_scikit_learn_and_from_scratch.git
+# Clone the repository
+git clone https://github.com/mehranmushtaq/ml-scikit-scratch.git
 
-# 2. Navigate into the project
-cd machine_learning_with_scikit_learn_and_from_scratch
+# Navigate into the repo
+cd ml-scikit-scratch
 
-# 3. (Recommended) Create a virtual environment
-python -m venv venv
-source venv/bin/activate          # macOS/Linux
-venv\Scripts\activate             # Windows
-
-# 4. Install dependencies
+# Install all dependencies
 pip install -r requirements.txt
 
-# 5. Launch Jupyter
+# Launch Jupyter
 jupyter notebook
 ```
 
------
-
 ## Tech Stack
 
-|Tool                |Version|Purpose                  |
-|--------------------|-------|-------------------------|
-|Python              |3.10+  |Core language            |
-|Scikit-Learn        |1.x    |ML algorithms & pipelines|
-|XGBoost             |1.7+   |Gradient boosting        |
-|Pandas              |1.5+   |Data manipulation        |
-|NumPy               |1.23+  |Numerical computing      |
-|Matplotlib / Seaborn|Latest |Visualisation            |
-|Jupyter Notebook    |Latest |Interactive development  |
+![Python](https://img.shields.io/badge/Python-3.10+-3776AB?style=flat-square&logo=python&logoColor=white)
+![Scikit-Learn](https://img.shields.io/badge/Scikit--Learn-1.x-F7931E?style=flat-square&logo=scikit-learn&logoColor=white)
+![XGBoost](https://img.shields.io/badge/XGBoost-189AB4?style=flat-square)
+![Pandas](https://img.shields.io/badge/Pandas-150458?style=flat-square&logo=pandas&logoColor=white)
+![NumPy](https://img.shields.io/badge/NumPy-013243?style=flat-square&logo=numpy&logoColor=white)
+![Matplotlib](https://img.shields.io/badge/Matplotlib-11557c?style=flat-square)
+![Jupyter](https://img.shields.io/badge/Jupyter-F37626?style=flat-square&logo=jupyter&logoColor=white)
 
 -----
 
-## Core Engineering Practices
+## Key Concepts Practiced
 
 ```
-✅ sklearn.Pipeline used throughout — prevents data leakage at every stage
-✅ GridSearchCV for principled hyperparameter optimisation
-✅ Stratified K-Fold Cross-Validation for robust generalisation estimates
-✅ ColumnTransformer for heterogeneous feature preprocessing
-✅ Class imbalance handling (class_weight, resampling strategies)
-✅ Evaluation beyond accuracy — F1, Precision, Recall, AUC-ROC, Confusion Matrix
-✅ Feature importance analysis and interpretability
-✅ From-scratch implementations to verify theoretical understanding
-✅ Clean, reproducible notebooks with random_state seeding
+  Data Preprocessing & Feature Engineering
+  Encoding (LabelEncoder, One-Hot)
+  Train/Test Split with Stratification
+  StandardScaler inside Pipelines (no data leakage)
+  GridSearchCV for Hyperparameter Tuning
+  Cross-Validation (k-fold, stratified)
+  Class Imbalance Handling
+  Model Evaluation (Accuracy, F1, Precision, Recall, AUC)
+  Confusion Matrix Analysis
+  Feature Importance Visualisation
+  Algorithms Implemented From Scratch
 ```
 
 -----
 
-⭐ **If this repository helped you, consider giving it a star!**
+## Author
 
+**Mehran Mushtaq** · Data Science & Machine Learning Track
+
+[![GitHub](https://img.shields.io/badge/GitHub-mehranmushtaq-181717?style=flat-square&logo=github)](https://github.com/mehranmushtaq)
+
+-----
 
 *“First, solve the problem. Then, write the code.”* — John Johnson
