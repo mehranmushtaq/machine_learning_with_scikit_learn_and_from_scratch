@@ -90,12 +90,6 @@ machine_learning_with_scikit_learn_and_from_scratch
 │   ├── hiearchichal_clustering.ipynb
 │   ├── dbscan.ipynb
 │   ├── README.md
-│   └── 📁 projects/
-│       └── 📁 thyroid_outlier_detection/    
-│           ├── thyroid_outlier_detection.ipynb
-│           ├── thyroid_dataset.csv
-│           └── README.md
-│
 ├── 📁 Projects/                              # End-to-end applications
 │   ├── 📁 CreditWise Loan System/
 │   │   ├── loan_approval.ipynb
@@ -105,6 +99,10 @@ machine_learning_with_scikit_learn_and_from_scratch
 │   ├── 📁 ecommerce-purchase-prediction/
 │   │   ├── predicting_ecommerce.ipynb
 │   │   ├── shop_smart_ecommerce.csv
+│   │   └── README.md
+│   ├── 📁 thyroid_outlier_detection/
+│   │   ├── thyroid_outlier_detection.ipynb
+│   │   ├── thyroid_dataset.csv
 │   │   └── README.md
 │   └── 📁 disease_prediction_pipeline/
 │       ├── disease_prediction_pipeline.ipynb
