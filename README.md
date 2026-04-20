@@ -109,11 +109,13 @@ ml-scikit-scratch/
 │
 ├── Projects/                              # Applied end-to-end projects
 │   ├── CreditWise Loan System/
-│   │   ├── Loan_Approval.ipynb
+│   │   ├── loan_Approval.ipynb
+│   │   ├── loan_approval.py
 │   │   ├── loan_approval_data.csv
 │   │   └── README.md
 │   ├── ecommerce-purchase-prediction/
 │   │   ├── predicting_ecommerce.ipynb
+│   │   ├── predicting_ecommerce.py
 │   │   ├── shop_smart_ecommerce.csv
 │   │   └── README.md
 │   ├── thyroid_outlier_detection/
