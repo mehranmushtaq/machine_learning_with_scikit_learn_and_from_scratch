@@ -1,11 +1,12 @@
 # 🧠 Machine Learning with Scikit-Learn & From Scratch
 
-[![Python](https://img.shields.io/badge/Python-3.10+-3776AB?style=flat-square&logo=python&logoColor=white)](https://python.org)
-[![Scikit-Learn](https://img.shields.io/badge/Scikit--Learn-1.x-F7931E?style=flat-square&logo=scikit-learn&logoColor=white)](https://scikit-learn.org)
-[![XGBoost](https://img.shields.io/badge/XGBoost-1.7+-189AB4?style=flat-square)](https://xgboost.readthedocs.io)
-[![Jupyter](https://img.shields.io/badge/Jupyter-Notebook-F37626?style=flat-square&logo=jupyter&logoColor=white)](https://jupyter.org)
-[![License](https://img.shields.io/badge/License-MIT-green?style=flat-square)](LICENSE)
-[![Status](https://img.shields.io/badge/Status-Active-brightgreen?style=flat-square)]()
+![Python](https://img.shields.io/badge/Python-3.10+-3776AB?style=flat-square&logo=python&logoColor=white)
+![Scikit-Learn](https://img.shields.io/badge/Scikit--Learn-1.x-F7931E?style=flat-square&logo=scikit-learn&logoColor=white)
+![XGBoost](https://img.shields.io/badge/XGBoost-189AB4?style=flat-square)
+![Pandas](https://img.shields.io/badge/Pandas-150458?style=flat-square&logo=pandas&logoColor=white)
+![NumPy](https://img.shields.io/badge/NumPy-013243?style=flat-square&logo=numpy&logoColor=white)
+![Matplotlib](https://img.shields.io/badge/Matplotlib-11557c?style=flat-square)
+![Jupyter](https://img.shields.io/badge/Jupyter-F37626?style=flat-square&logo=jupyter&logoColor=white)
 
 ### *End-to-End Machine Learning Repository*
 
@@ -187,6 +188,19 @@ Classifies individuals as healthy or unhealthy using a full ensemble pipeline (L
 |✅ Above Benchmark|**+18%**  |
 
 Predicts whether an online visitor will convert to a buyer. Tackled heavy class imbalance (85/15 split) with `class_weight='balanced'` and pruning strategies.
+
+-----
+
+### 🧬 [Thyroid Outlier Detection](https://github.com/mehranmushtaq/ml-scikit-scratch/blob/main/Projects/thyroid_outlier_detection)
+
+> *Unsupervised Anomaly Detection · Isolation Forest + LOF · 1,000 patients*
+
+|Metric       |Score                     |
+|-------------|--------------------------|
+|✅ Precision@K|**89%**                   |
+|✅ Method     |**Isolation Forest + LOF**|
+
+Detects anomalous thyroid hormone profiles in patient lab data using unsupervised anomaly detection — no labeled training data required. Flags clinically significant outliers for medical triage and rare disease screening.
 
 -----
 
