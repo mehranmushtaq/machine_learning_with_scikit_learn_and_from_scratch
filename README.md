@@ -190,7 +190,7 @@ Automated loan risk classification using financial and demographic features. Ful
 
 ### Thyroid Outlier Detection 
 
-> `Projects/projects/thyroid_outlier_detection/` · Isolation Forest + LOF · 1,000 patients
+> `Projects/thyroid_outlier_detection/` · Isolation Forest + LOF · 1,000 patients
 
 Detects anomalous thyroid hormone profiles in patient lab data using unsupervised anomaly detection. Combines Isolation Forest and Local Outlier Factor to flag clinically significant outliers without labeled training data.
 
