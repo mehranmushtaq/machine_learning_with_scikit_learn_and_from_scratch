@@ -1,4 +1,4 @@
-# 🧠 Machine Learning with Scikit-Learn & From Scratch
+# Machine Learning with Scikit-Learn & From Scratch
 
 ![Python](https://img.shields.io/badge/Python-3.10+-3776AB?style=flat-square&logo=python&logoColor=white)
 ![Scikit-Learn](https://img.shields.io/badge/Scikit--Learn-1.x-F7931E?style=flat-square&logo=scikit-learn&logoColor=white)
