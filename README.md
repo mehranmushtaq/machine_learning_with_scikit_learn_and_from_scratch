@@ -1,4 +1,4 @@
-# 🧠ML Scikit-Scratch
+# ML Scikit-Scratch
 
 ### End-to-end Machine Learning — from mathematical foundations to production pipelines
 
