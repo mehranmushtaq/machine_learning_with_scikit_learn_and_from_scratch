@@ -107,7 +107,6 @@ ml-scikit-scratch/
 │   │   └── README.md
 │   ├── 📁 creditwise_loan_approval/
 │   │   ├── loan_approval.ipynb
-│   │   ├── loan_approval.py
 │   │   ├── loan_approval_data.csv
 │   │   └── README.md
 │   ├── 📁 customer-segmentation-smartcart/
