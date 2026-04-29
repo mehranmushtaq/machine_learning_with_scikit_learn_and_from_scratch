@@ -110,6 +110,10 @@ ml-scikit-scratch/
 │   │   ├── loan_approval.py
 │   │   ├── loan_approval_data.csv
 │   │   └── README.md
+│   ├── 📁 customer-segmentation-smartcart/
+│   │   ├── customer-segmentation-smartcart.ipynb
+│   │   ├── smartcart_customers.csv
+│   │   └── README.md
 │   └── 📁 thyroid_outlier_detection/
 │       ├── thyroid_outlier_detection.ipynb
 │       ├── thyroid_dataset.csv
