@@ -1,4 +1,4 @@
-# 🧠 ML Scikit-Scratch
+# ML Scikit-Scratch
 
 ### End-to-end Machine Learning — from mathematical foundations to production pipelines
 
@@ -111,7 +111,7 @@ ml-scikit-scratch/
 │   │   ├── loan_approval_data.csv
 │   │   └── README.md
 │   ├── 📁 customer-segmentation-smartcart/
-│   │   ├── customer-segmentation-smartcart.ipynb
+│   │   ├── customer_segmentation_smartcart.ipynb
 │   │   ├── smartcart_customers.csv
 │   │   └── README.md
 │   └── 📁 thyroid_outlier_detection/
