@@ -1,312 +1,253 @@
-# ML Scikit-Scratch
-
-### End-to-end Machine Learning — from mathematical foundations to production pipelines
+# 🤖 Machine Learning with Scikit-Learn & From Scratch
 
 [![Python](https://img.shields.io/badge/Python-3.10+-3776AB?style=flat-square&logo=python&logoColor=white)](https://python.org)
 [![Scikit-Learn](https://img.shields.io/badge/Scikit--Learn-1.x-F7931E?style=flat-square&logo=scikit-learn&logoColor=white)](https://scikit-learn.org)
 [![XGBoost](https://img.shields.io/badge/XGBoost-1.7+-189AB4?style=flat-square)](https://xgboost.readthedocs.io)
 [![Jupyter](https://img.shields.io/badge/Jupyter-Notebook-F37626?style=flat-square&logo=jupyter&logoColor=white)](https://jupyter.org)
-[![License](https://img.shields.io/badge/License-MIT-22c55e?style=flat-square)](LICENSE)
-[![Status](https://img.shields.io/badge/Status-Active-brightgreen?style=flat-square)]()
+[![License](https://img.shields.io/badge/License-MIT-green?style=flat-square)](LICENSE)
+[![Status](https://img.shields.io/badge/Status-Active-brightgreen?style=flat-square)](https://github.com/mehranmushtaq/ml-scikit-scratch)
+
+**An end-to-end Machine Learning repository covering supervised learning, unsupervised learning, ensemble methods, from-scratch implementations, and applied real-world projects — built as part of an intensive internship program.**
+
+[Featured Projects](#-featured-projects) · [Curriculum](#-curriculum-coverage) · [Repo Structure](#-repository-structure) · [Quick Start](#-quick-start) · [Author](#-author)
 
 
+##  Overview
 
-> **94.89% accuracy** on clinical disease prediction  ·  **+18% F1** above e-commerce baseline  ·  **0.9975 AUC-ROC** on ensemble classification  ·  **89% Precision@K** on unsupervised anomaly detection
+This repository is a **structured, production-minded ML learning track** developed during an internship. It is not just a collection of notebooks — it is a curated journey through the fundamentals and applied practice of machine learning, built with emphasis on **understanding before implementation**.
 
+Each module follows a consistent pattern:
 
-[Algorithms](#-algorithms)  ·  [Projects](#-projects)  ·  [From Scratch](#-ml-from-scratch)  ·  [Quick Start](#-quick-start)  ·  [Structure](#-repository-structure)
-
------
-
-## What Is This?
-
-This repository is a **structured, end-to-end ML learning track** built during an intensive internship. It covers the full arc of machine learning — from handwriting algorithms in pure NumPy, to building production-grade scikit-learn pipelines, to solving real-world classification and anomaly detection problems.
-
-Every module follows the same discipline:
-
-- Understand the math before importing the library
-- Build with `sklearn.Pipeline` to prevent data leakage at every step
-- Tune with `GridSearchCV` — no manual guesswork
-- Evaluate beyond accuracy: F1, AUC-ROC, Precision@K, confusion matrices
-- Apply to real datasets with real constraints: class imbalance, unlabeled data, clinical stakes
+- Conceptual grounding before code
+- Scikit-Learn pipeline-first design (no data leakage)
+- Hyperparameter tuning via `GridSearchCV`
+- Model evaluation with industry-standard metrics
+- Clean, commented notebooks suitable for portfolio review
 
 -----
 
-## 📂 Repository Structure
+##  Repository Structure
 
 ```
 ml-scikit-scratch/
 │
-├── 📁 datasets/                          # Shared datasets used across modules
+├── 📁 Datasets/                              # Shared datasets across modules
 │   ├── Emotion_classify_Data.csv
 │   ├── Iris.csv
 │   ├── Social_Network_Ads.csv
 │   ├── house_prices_practice.csv
 │   └── insurance.csv
 │
-├── 📁 supervised/                        # Core supervised learning algorithms
-│   ├── 📁 linear_regression/
-│   │   ├── linear_regression.ipynb
-│   │   └── README.md
-│   ├── 📁 logistic_regression/
-│   │   ├── logistic_regression.ipynb
-│   │   └── README.md
-│   ├── 📁 knn/
-│   │   ├── knn.ipynb
-│   │   └── README.md
-│   ├── 📁 decision_tree/
-│   │   ├── decision_tree_classifier.ipynb
-│   │   ├── decision_tree_regressor.ipynb
-│   │   └── README.md
-│   ├── 📁 naive_bayes/
-│   │   ├── naive_bayes.ipynb
-│   │   └── README.md
-│   ├── 📁 support_vector_machine/
-│   │   ├── svc.ipynb
-│   │   ├── svr.ipynb
-│   │   └── README.md
-│   └── 📁 regularization/
-│       ├── lasso_ridge.ipynb
-│       └── README.md
+├── 📁 linear_regression/
+├── 📁 Logistic Regression/
+├── 📁 KNN/
+├── 📁 Decision tree/
+├── 📁 Naive bayes/
+├── 📁 Support Vector Machine/
+├── 📁 Regularizaton(Lasso:Ridge)/
+├── 📁 ensemble learning/
+│   ├── bagging/                              # Random Forest
+│   └── boosting/                             # AdaBoost, Gradient Boosting, XGBoost
 │
-├── 📁 ensemble_learning/                 # Ensemble methods
-│   ├── 📁 bagging/
-│   │   ├── random_forest.ipynb
-│   │   └── README.md
-│   ├── 📁 boosting/
-│   │   ├── adaboost.ipynb
-│   │   ├── gradient_boosting.ipynb
-│   │   ├── xgboost.ipynb
-│   │   └── README.md
-│   └── 📁 heterogeneous_ensemble/
-│       ├── heterogeneous_ensemble_methods.ipynb
-│       └── README.md
+├── 📁 ml-from-scratch/                       # Pure Python/NumPy implementations
+│   ├── linear_reg.ipynb
+│   ├── logistic_reg.ipynb
+│   └── knn_regressor.ipynb
 │
-├── 📁 unsupervised/                      # Unsupervised learning
+├── 📁 unsupervised ml/
 │   ├── k_means.ipynb
-│   ├── k_means_clustering.ipynb
-│   ├── hierarchical_clustering.ipynb
-│   ├── dbscan.ipynb
-│   └── README.md
+│   ├── hiearchichal_clustering.ipynb
+│   └── dbscan.ipynb
 │
-├── 📁 ml_from_scratch/                   # Algorithms in pure Python / NumPy only
-│   ├── linear_regression.ipynb
-│   ├── logistic_regression.ipynb
-│   ├── knn_regressor.ipynb
-│   └── README.md
+├── 📁 Projects/                              # End-to-end real-world applications
+│   ├── 📁 customer-segmentation-smartcart/  # NEW — Unsupervised segmentation
+│   ├── 📁 CreditWise Loan System/
+│   ├── 📁 ecommerce-purchase-prediction/
+│   ├── 📁 thyroid_outlier_detection/
+│   └── 📁 disease_prediction_pipeline/
 │
-├── 📁 projects/                          # End-to-end applied projects
-│   ├── 📁 disease_prediction_pipeline/
-│   │   ├── disease_prediction_pipeline.ipynb
-│   │   ├── novagen_dataset.csv
-│   │   └── README.md
-│   ├── 📁 ecommerce_purchase_prediction/
-│   │   ├── predicting_ecommerce.ipynb
-│   │   ├── predicting_ecommerce.py
-│   │   ├── shop_smart_ecommerce.csv
-│   │   └── README.md
-│   ├── 📁 creditwise_loan_approval/
-│   │   ├── loan_approval.ipynb
-│   │   ├── loan_approval_data.csv
-│   │   └── README.md
-│   ├── 📁 customer-segmentation-smartcart/
-│   │   ├── customer_segmentation_smartcart.ipynb
-│   │   ├── smartcart_customers.csv
-│   │   └── README.md
-│   └── 📁 thyroid_outlier_detection/
-│       ├── thyroid_outlier_detection.ipynb
-│       ├── thyroid_dataset.csv
-│       └── README.md
-│
-├── notebook_vs_production.md             # Guide: converting notebooks to scripts
+├── notebook_vs_production.md
 ├── requirements.txt
 └── README.md
 ```
 
-> **Convention:** all folder and notebook names use `lowercase_with_underscores` consistently across every module.
-
 -----
 
-## 📐 Algorithms
+##  Curriculum Coverage
 
 ### Supervised Learning
 
-|Module                              |Algorithm                  |Key Topics                                                |
-|------------------------------------|---------------------------|----------------------------------------------------------|
-|`supervised/linear_regression/`     |Ordinary Least Squares     |Coefficients, MSE, R², multicollinearity                  |
-|`supervised/logistic_regression/`   |Binary & Multi-class LR    |Sigmoid, log-loss, polynomial features                    |
-|`supervised/knn/`                   |K-Nearest Neighbours       |Distance metrics, K selection, curse of dimensionality    |
-|`supervised/decision_tree/`         |CART Classifier & Regressor|Gini, Entropy, pre/post pruning, max_depth                |
-|`supervised/naive_bayes/`           |Gaussian Naive Bayes       |Bayes theorem, conditional independence, Laplace smoothing|
-|`supervised/support_vector_machine/`|SVC + SVR                  |RBF/Poly kernels, C & γ tuning, margin maximisation       |
-|`supervised/regularization/`        |Lasso (L1) & Ridge (L2)    |Bias-variance tradeoff, coefficient shrinkage             |
+|Module                       |Algorithm                  |Key Concepts                                       |
+|-----------------------------|---------------------------|---------------------------------------------------|
+|`linear_regression/`         |OLS, Ridge, Lasso          |Coefficients, MSE, R², Regularization              |
+|`Logistic Regression/`       |Binary & Multi-class LR    |Sigmoid, Cross-Entropy, Polynomial Features        |
+|`KNN/`                       |K-Nearest Neighbours       |Distance metrics, K-tuning, Curse of Dimensionality|
+|`Decision Tree/`             |CART Classifier & Regressor|Gini, Entropy, Pre/Post Pruning                    |
+|`Naive Bayes/`               |Gaussian Naive Bayes       |Bayes Theorem, Conditional Independence            |
+|`Support Vector Machine/`    |SVC + SVR                  |Kernels (RBF, Poly), Margin, C & γ tuning          |
+|`Regularizaton(Lasso:Ridge)/`|L1 / L2 Penalty            |Bias-Variance Trade-off                            |
 
 ### Ensemble Methods
 
-|Module                                     |Technique               |Highlights                                                  |
-|-------------------------------------------|------------------------|------------------------------------------------------------|
-|`ensemble_learning/bagging/`               |Random Forest           |Feature importance, OOB score, bootstrapping                |
-|`ensemble_learning/boosting/`              |AdaBoost · GBM · XGBoost|Sequential weak learners, learning rate, early stopping     |
-|`ensemble_learning/heterogeneous_ensemble/`|Voting · Stacking       |Soft voting, meta-learner, CV stacking — **AUC-ROC: 0.9975**|
+|Module                       |Technique                           |Highlights                        |
+|-----------------------------|------------------------------------|----------------------------------|
+|`ensemble learning/bagging/` |Random Forest                       |Feature Importance, OOB Score     |
+|`ensemble learning/boosting/`|AdaBoost, Gradient Boosting, XGBoost|Sequential learners, Learning Rate|
 
 ### Unsupervised Learning
 
-|Module         |Algorithm              |Key Topics                                                  |
-|---------------|-----------------------|------------------------------------------------------------|
-|`unsupervised/`|K-Means                |Elbow method, inertia, centroid initialisation              |
-|`unsupervised/`|Hierarchical Clustering|Agglomerative, Ward linkage, dendrograms                    |
-|`unsupervised/`|DBSCAN                 |Epsilon, min_samples, noise points, arbitrary-shape clusters|
+|Module            |Algorithm                    |Key Concepts                      |
+|------------------|-----------------------------|----------------------------------|
+|`unsupervised ml/`|K-Means, Hierarchical, DBSCAN|Elbow Method, Dendrograms, Epsilon|
+
+### ML From Scratch (Pure Python / NumPy)
+
+|Module               |What’s Implemented                             |
+|---------------------|-----------------------------------------------|
+|`linear_reg.ipynb`   |Gradient Descent, cost function, weight updates|
+|`logistic_reg.ipynb` |Sigmoid, binary cross-entropy, manual backprop |
+|`knn_regressor.ipynb`|Euclidean distance, k-neighbor voting          |
 
 -----
 
-## ⚙️ ML From Scratch
+## Featured Projects
 
-Algorithms implemented without any ML library — only Python and NumPy. The purpose is to verify understanding at the mathematical level before relying on abstracted implementations.
+###  SmartCart Customer Segmentation  `NEW`
 
-|Notebook                   |What’s Built                                                           |
-|---------------------------|-----------------------------------------------------------------------|
-|`linear_regression.ipynb`  |Gradient descent, cost function, weight and bias updates               |
-|`logistic_regression.ipynb`|Sigmoid activation, binary cross-entropy, manual backpropagation       |
-|`knn_regressor.ipynb`      |Euclidean distance computation, k-neighbor aggregation, prediction loop|
+> `Projects/customer-segmentation-smartcart/`  ·  Unsupervised Learning  ·  K-Means + Agglomerative Clustering + PCA
 
------
+End-to-end customer segmentation pipeline for a retail platform. Discovers **4 distinct customer personas** from behavioral and demographic data — enabling personalized marketing and product strategy without any labeled data.
 
-## 🚀 Projects
+**Full Pipeline:**
 
-### 🏥 Disease Prediction Pipeline
+```
+Raw Data → Missing Value Imputation → Feature Engineering → Outlier Removal
+→ One-Hot Encoding → StandardScaler → PCA (4 components, ~55% variance)
+→ Elbow + Silhouette K-Selection → K-Means & Agglomerative Clustering → Cluster Analysis
+```
 
-`projects/disease_prediction_pipeline/`  ·  9,800 patients  ·  Voting Ensemble
+**Cluster Profiles (Agglomerative — Final Model):**
 
-A production-ready clinical classification system built for **NovaGen Research Labs**. Classifies patients as healthy or at-risk using a hard-voting ensemble (Logistic Regression + Random Forest + Naïve Bayes) inside a full `sklearn.Pipeline` with stratified cross-validation.
+|Cluster|Avg Income|Avg Spend|Profile                           |Recommended Strategy           |
+|-------|----------|---------|----------------------------------|-------------------------------|
+|0      |~$42,706  |~$327    |Budget-conscious, older families  |Bundle deals, discount promos  |
+|1      |~$66,279  |~$1,055  |Affluent loyalists, catalog buyers|Premium rewards, upsells       |
+|2      |~$35,326  |~$110    |Low-income, high web visits       |Re-engagement, web-first offers|
+|3      |~$74,727  |~$1,271  |Premium high-spenders             |VIP programs, early access     |
 
-|Metric   |Score                                                |
-|---------|-----------------------------------------------------|
-|Accuracy |**94.89%**                                           |
-|CV Recall|**95.46%**                                           |
-|Pipeline |StandardScaler → ColumnTransformer → VotingClassifier|
-
------
-
-### 🛒 E-Commerce Purchase Prediction
-
-`projects/ecommerce_purchase_prediction/`  ·  12,330 sessions  ·  Decision Tree
-
-Predicts visitor-to-buyer conversion from behavioral session data. Addresses severe class imbalance (85/15 split) with `class_weight='balanced'` and depth-controlled pruning.
-
-|Metric            |Score     |
-|------------------|----------|
-|F1-Score          |**0.6485**|
-|Baseline benchmark|0.55      |
-|Improvement       |**+18%**  |
+**Dataset:** 2,236 customers × 15 features  |  **Models:** K-Means & Agglomerative (Ward linkage), k=4
 
 -----
 
-### 🧬 Thyroid Outlier Detection
+### Disease Prediction Pipeline
 
-`projects/thyroid_outlier_detection/`  ·  1,000 patients  ·  Isolation Forest + LOF
+> `Projects/disease_prediction_pipeline/`  ·  Voting Classifier Ensemble  ·  9,800 patients
 
-Detects anomalous thyroid hormone profiles using unsupervised anomaly detection — no labeled training data required. Combines Isolation Forest and Local Outlier Factor to flag clinically significant outliers for medical triage and rare disease screening.
+Production-ready clinical classification system built for **NovaGen Research Labs**. Hard-voting ensemble of Logistic Regression, Random Forest, and Naïve Bayes inside a full `sklearn.Pipeline` with stratified cross-validation.
 
-|Metric     |Score                                   |
-|-----------|----------------------------------------|
-|Precision@K|**89%**                                 |
-|Method     |Isolation Forest + Local Outlier Factor |
-|Use case   |Lab result triage, rare disease flagging|
+- **Accuracy:** 94.89%  |  **CV Recall:** 95.46%
+- **Use Case:** Clinical trial participant screening
 
 -----
 
-### 💳 CreditWise Loan Approval System
+### E-Commerce Purchase Prediction
 
-`projects/creditwise_loan_approval/`  ·  Financial classification  ·  End-to-end
+> `Projects/ecommerce-purchase-prediction/`  ·  Decision Tree  ·  12,330 sessions
 
-Automated loan risk classification using financial and demographic features. Full preprocessing pipeline with categorical encoding, feature engineering, and scaling. Includes a production `.py` script alongside the exploratory notebook.
+Predicts visitor-to-buyer conversion from behavioral session data. Handles severe class imbalance (85/15 split) with `class_weight='balanced'` and depth pruning.
+
+- **F1-Score:** 0.6485 *(+18% over 0.55 baseline)*
+- **Use Case:** Marketing conversion optimisation
 
 -----
 
-## ⚡ Quick Start
+### CreditWise Loan Approval System
+
+> `Projects/CreditWise Loan System/`  ·  Classification Pipeline
+
+Automated loan risk classification using financial and demographic features. Full preprocessing pipeline with feature engineering, encoding, scaling, and model evaluation. Includes a production `.py` script alongside the notebook.
+
+-----
+
+###  Thyroid Outlier Detection
+
+> `Projects/thyroid_outlier_detection/`  ·  Isolation Forest + LOF  ·  1,000 patients
+
+Detects anomalous thyroid hormone profiles in patient lab data using unsupervised anomaly detection — no labeled training data required.
+
+- **Precision@K:** 89%
+- **Use Case:** Automated lab result triage, rare disease flagging
+
+-----
+
+##  Quick Start
 
 ```bash
-# Clone
+# 1. Clone the repository
 git clone https://github.com/mehranmushtaq/ml-scikit-scratch.git
+
+# 2. Navigate into the project
 cd ml-scikit-scratch
 
-# Create virtual environment (recommended)
+# 3. Create a virtual environment (recommended)
 python -m venv venv
-source venv/bin/activate        # macOS / Linux
+source venv/bin/activate        # macOS/Linux
 venv\Scripts\activate           # Windows
 
-# Install dependencies
+# 4. Install dependencies
 pip install -r requirements.txt
 
-# Launch Jupyter
+# 5. Launch Jupyter
 jupyter notebook
 ```
 
 -----
 
-## 🛠 Tech Stack
+## 🧰 Tech Stack
 
-|Tool                |Purpose                                             |
-|--------------------|----------------------------------------------------|
-|Python 3.10+        |Core language                                       |
-|Scikit-Learn 1.x    |Algorithms, pipelines, model selection              |
-|XGBoost 1.7+        |Gradient boosting                                   |
-|Pandas              |Data manipulation and exploration                   |
-|NumPy               |Numerical computing and from-scratch implementations|
-|Matplotlib / Seaborn|Visualisation and confusion matrices                |
-|Jupyter Notebook    |Interactive development                             |
-
------
-
-## ✅ Engineering Practices
-
-```
-sklearn.Pipeline throughout           — zero data leakage by design
-GridSearchCV                          — principled hyperparameter search
-Stratified K-Fold Cross-Validation   — reliable generalisation estimates
-ColumnTransformer                     — mixed-type feature preprocessing
-Class imbalance handling              — class_weight, resampling strategies
-Full evaluation suite                 — F1, Precision, Recall, AUC-ROC, Confusion Matrix
-Feature importance analysis           — tree-based interpretability
-From-scratch implementations          — validates theoretical understanding
-random_state seeding                  — fully reproducible results
-Production .py scripts                — notebooks converted to deployable code
-```
+|Tool                |Version|Purpose                  |
+|--------------------|-------|-------------------------|
+|Python              |3.10+  |Core language            |
+|Scikit-Learn        |1.x    |ML algorithms & pipelines|
+|XGBoost             |1.7+   |Gradient boosting        |
+|Pandas              |1.5+   |Data manipulation        |
+|NumPy               |1.23+  |Numerical computing      |
+|Matplotlib / Seaborn|Latest |Visualisation            |
+|Kneed               |Latest |Automated elbow detection|
+|Jupyter Notebook    |Latest |Interactive development  |
 
 -----
 
-## 🗺 Suggested Learning Path
+## 🏗️ Core Engineering Practices
 
 ```
-New to ML? Start here and work down:
-
-1. ml_from_scratch/                  → build intuition without abstractions
-2. supervised/linear_regression/     → simplest supervised model
-3. supervised/logistic_regression/   → move to classification
-4. supervised/decision_tree/         → non-linear decision boundaries
-5. ensemble_learning/bagging/        → combine models (Random Forest)
-6. ensemble_learning/boosting/       → sequential improvement (XGBoost)
-7. ensemble_learning/heterogeneous_ensemble/  → mix different model types
-8. unsupervised/                     → learn without labels
-9. projects/                         → apply everything end-to-end
+✅ sklearn.Pipeline throughout — zero data leakage at any stage
+✅ GridSearchCV for principled hyperparameter optimisation
+✅ Stratified K-Fold Cross-Validation for robust generalisation estimates
+✅ ColumnTransformer for heterogeneous feature preprocessing
+✅ Class imbalance handling (class_weight, resampling strategies)
+✅ Evaluation beyond accuracy — F1, Precision, Recall, AUC-ROC, Confusion Matrix
+✅ Unsupervised validation — Elbow Method + Silhouette Score
+✅ Dimensionality reduction via PCA before clustering
+✅ From-scratch implementations to verify theoretical understanding
+✅ Clean, reproducible notebooks with random_state seeding throughout
 ```
 
 -----
 
-## Author
+##  Author
 
-**Mehran Mushtaq** — Data Science & Machine Learning
+**Mehran Mushtaq**
 
 [![GitHub](https://img.shields.io/badge/GitHub-mehranmushtaq-181717?style=flat-square&logo=github)](https://github.com/mehranmushtaq)
 
 -----
 
 
+⭐ **If this repository helped you, consider giving it a star!**
 
-*“First, solve the problem. Then, write the code.”* — John Johnson
+*“First, solve the problem. Then, write the code.” — John Johnson*
 
 
-
-⭐ **Star this repo if it helped you** — it keeps the project visible and motivates continued work.
 
 
