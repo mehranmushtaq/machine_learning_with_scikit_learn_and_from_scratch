@@ -136,7 +136,7 @@ ml-scikit-scratch/
 
 -----
 
-###  [SmartCart Customer Segmentation](https://github.com/mehranmushtaq/ml-scikit-scratch/tree/main/Projects/customer-segmentation-smartcart)  `NEW`
+###  [SmartCart Customer Segmentation](https://github.com/mehranmushtaq/ml-scikit-scratch/tree/main/Projects/customer-segmentation-smartcart)  
 
 > **Domain:** Retail  ·  **Type:** Unsupervised Learning  ·  **Dataset:** 2,240 customers × 22 features
 
