@@ -88,7 +88,7 @@ ml-scikit-scratch/
 │   └── dbscan.ipynb
 │
 ├── 📁 Projects/                              # End-to-end real-world applications
-│   ├── 📁 customer-segmentation-smartcart/  # ← NEW
+│   ├── 📁 customer-segmentation-smartcart/  
 │   ├── 📁 CreditWise Loan System/
 │   ├── 📁 ecommerce-purchase-prediction/
 │   ├── 📁 thyroid_outlier_detection/
