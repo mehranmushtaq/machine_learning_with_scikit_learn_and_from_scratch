@@ -45,11 +45,11 @@ Every folder tells a chapter of that story: understanding *why* an algorithm wor
 
 |Project                                                                                                                                   |Domain    |Technique                    |Key Result                    |
 |------------------------------------------------------------------------------------------------------------------------------------------|----------|-----------------------------|------------------------------|
-|🛒 [SmartCart Customer Segmentation](https://github.com/mehranmushtaq/ml-scikit-scratch/tree/main/Projects/customer-segmentation-smartcart)|Retail    |K-Means + Agglomerative + PCA|4 actionable customer personas|
-|🏥 [Disease Prediction Pipeline](https://github.com/mehranmushtaq/ml-scikit-scratch/tree/main/Projects/disease_prediction_pipeline)        |Healthcare|Voting Classifier Ensemble   |94.89% accuracy               |
-|🛍️ [E-Commerce Purchase Prediction](https://github.com/mehranmushtaq/ml-scikit-scratch/tree/main/Projects/ecommerce-purchase-prediction)   |Retail    |Decision Tree                |F1: 0.6485 (+18% benchmark)   |
-|💳 [CreditWise Loan Approval](https://github.com/mehranmushtaq/ml-scikit-scratch/tree/main/Projects/CreditWise%20Loan%20System)            |Finance   |Classification Pipeline      |End-to-end deployment-ready   |
-|🔬 [Thyroid Outlier Detection](https://github.com/mehranmushtaq/ml-scikit-scratch/tree/main/Projects/thyroid_outlier_detection)            |Healthcare|Isolation Forest + LOF       |89% Precision@K               |
+| [SmartCart Customer Segmentation](https://github.com/mehranmushtaq/ml-scikit-scratch/tree/main/Projects/customer-segmentation-smartcart)|Retail    |K-Means + Agglomerative + PCA|4 actionable customer personas|
+| [Disease Prediction Pipeline](https://github.com/mehranmushtaq/ml-scikit-scratch/tree/main/Projects/disease_prediction_pipeline)        |Healthcare|Voting Classifier Ensemble   |94.89% accuracy               |
+| [E-Commerce Purchase Prediction](https://github.com/mehranmushtaq/ml-scikit-scratch/tree/main/Projects/ecommerce-purchase-prediction)   |Retail    |Decision Tree                |F1: 0.6485 (+18% benchmark)   |
+| [CreditWise Loan Approval](https://github.com/mehranmushtaq/ml-scikit-scratch/tree/main/Projects/CreditWise%20Loan%20System)            |Finance   |Classification Pipeline      |End-to-end deployment-ready   |
+| [Thyroid Outlier Detection](https://github.com/mehranmushtaq/ml-scikit-scratch/tree/main/Projects/thyroid_outlier_detection)            |Healthcare|Isolation Forest + LOF       |89% Precision@K               |
 
 -----
 
